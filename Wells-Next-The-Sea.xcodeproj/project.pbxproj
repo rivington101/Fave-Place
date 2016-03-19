@@ -14,6 +14,7 @@
 		D0C733BC1C9DC68700245820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C733BA1C9DC68700245820 /* LaunchScreen.storyboard */; };
 		D0C733C71C9DC68700245820 /* Wells_Next_The_SeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C733C61C9DC68700245820 /* Wells_Next_The_SeaTests.swift */; };
 		D0C733D21C9DC68700245820 /* Wells_Next_The_SeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C733D11C9DC68700245820 /* Wells_Next_The_SeaUITests.swift */; };
+		D0C733E01C9DD6CC00245820 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D0C733CD1C9DC68700245820 /* Wells-Next-The-SeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wells-Next-The-SeaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C733D11C9DC68700245820 /* Wells_Next_The_SeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wells_Next_The_SeaUITests.swift; sourceTree = "<group>"; };
 		D0C733D31C9DC68700245820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D0C733B11C9DC68700245820 /* AppDelegate.swift */,
 				D0C733B31C9DC68700245820 /* ViewController.swift */,
 				D0C733B51C9DC68700245820 /* Main.storyboard */,
+				D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */,
 				D0C733B81C9DC68700245820 /* Assets.xcassets */,
 				D0C733BA1C9DC68700245820 /* LaunchScreen.storyboard */,
 				D0C733BD1C9DC68700245820 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				D0C733B41C9DC68700245820 /* ViewController.swift in Sources */,
 				D0C733B21C9DC68700245820 /* AppDelegate.swift in Sources */,
+				D0C733E01C9DD6CC00245820 /* CustomBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

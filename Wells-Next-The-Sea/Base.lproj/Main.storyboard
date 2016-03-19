@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Wells_Next_The_Sea" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,115 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbour" translatesAutoresizingMaskIntoConstraints="NO" id="ODL-33-t8X">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="WELLS-NEXT-THE-SEA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yft-lg-3C9">
+                                <rect key="frame" x="151" y="40" width="298" height="46"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="155" y="28" width="291.5" height="31"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="51" y="40" width="298" height="46"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rck-c5-Vro" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="214" y="479" width="172" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="59c-f1-9ZQ"/>
+                                    <constraint firstAttribute="height" constant="34" id="ALY-3f-2Ot"/>
+                                    <constraint firstAttribute="height" constant="30" id="F2U-c2-L7H"/>
+                                    <constraint firstAttribute="width" constant="175" id="nLi-C0-Arc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="FIND OUT MORE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="59c-f1-9ZQ"/>
+                                        <exclude reference="ALY-3f-2Ot"/>
+                                        <exclude reference="F2U-c2-L7H"/>
+                                        <exclude reference="nLi-C0-Arc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ALY-3f-2Ot"/>
+                                        <include reference="nLi-C0-Arc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="59c-f1-9ZQ"/>
+                                        <include reference="F2U-c2-L7H"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yft-lg-3C9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="7R8-Pr-VLl"/>
+                            <constraint firstItem="ODL-33-t8X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8Hm-Z3-sqq"/>
+                            <constraint firstItem="Yft-lg-3C9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="AEr-pK-1aZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rck-c5-Vro" secondAttribute="bottom" constant="78" id="Cj5-HQ-EH2"/>
+                            <constraint firstItem="ODL-33-t8X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ljf-KC-nlV"/>
+                            <constraint firstItem="Rck-c5-Vro" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ncr-xC-hwt"/>
+                            <constraint firstItem="Yft-lg-3C9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="RcD-RA-4ae"/>
+                            <constraint firstItem="Yft-lg-3C9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="So0-up-yTi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rck-c5-Vro" secondAttribute="bottom" constant="31" id="ULU-e4-Qbr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ODL-33-t8X" secondAttribute="bottom" id="WnE-uZ-0NE"/>
+                            <constraint firstItem="Yft-lg-3C9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="a7d-3G-HhS">
+                                <variation key="heightClass=compact" constant="-15"/>
+                            </constraint>
+                            <constraint firstItem="Rck-c5-Vro" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cHG-9t-F0M"/>
+                            <constraint firstItem="ODL-33-t8X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p2k-8f-sbF"/>
+                            <constraint firstAttribute="trailing" secondItem="ODL-33-t8X" secondAttribute="trailing" id="ufQ-sm-Es8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="p2k-8f-sbF"/>
+                                <exclude reference="7R8-Pr-VLl"/>
+                                <exclude reference="AEr-pK-1aZ"/>
+                                <exclude reference="RcD-RA-4ae"/>
+                                <exclude reference="a7d-3G-HhS"/>
+                                <exclude reference="Ncr-xC-hwt"/>
+                                <exclude reference="cHG-9t-F0M"/>
+                                <exclude reference="Cj5-HQ-EH2"/>
+                                <exclude reference="ULU-e4-Qbr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="AEr-pK-1aZ"/>
+                                <include reference="a7d-3G-HhS"/>
+                                <include reference="Ncr-xC-hwt"/>
+                                <include reference="ULU-e4-Qbr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Rck-c5-Vro"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="RcD-RA-4ae"/>
+                                <include reference="cHG-9t-F0M"/>
+                                <include reference="Cj5-HQ-EH2"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="213" y="312"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="harbour" width="400" height="300"/>
+    </resources>
 </document>
