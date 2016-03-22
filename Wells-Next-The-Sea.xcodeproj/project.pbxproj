@@ -16,6 +16,8 @@
 		D0C733D21C9DC68700245820 /* Wells_Next_The_SeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C733D11C9DC68700245820 /* Wells_Next_The_SeaUITests.swift */; };
 		D0C733E01C9DD6CC00245820 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */; };
 		D0DE94641CA03334001A8D43 /* CustomLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE94631CA03334001A8D43 /* CustomLbl.swift */; };
+		D0DE94661CA09688001A8D43 /* LabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE94651CA09688001A8D43 /* LabelText.swift */; };
+		D0DE94681CA13B2A001A8D43 /* LabelTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE94671CA13B2A001A8D43 /* LabelTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D0C733D31C9DC68700245820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
 		D0DE94631CA03334001A8D43 /* CustomLbl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLbl.swift; sourceTree = "<group>"; };
+		D0DE94651CA09688001A8D43 /* LabelText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelText.swift; sourceTree = "<group>"; };
+		D0DE94671CA13B2A001A8D43 /* LabelTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +108,9 @@
 				D0C733B11C9DC68700245820 /* AppDelegate.swift */,
 				D0C733B31C9DC68700245820 /* ViewController.swift */,
 				D0C733B51C9DC68700245820 /* Main.storyboard */,
+				D0DE94671CA13B2A001A8D43 /* LabelTitle.swift */,
 				D0DE94631CA03334001A8D43 /* CustomLbl.swift */,
+				D0DE94651CA09688001A8D43 /* LabelText.swift */,
 				D0C733DF1C9DD6CC00245820 /* CustomBtn.swift */,
 				D0C733B81C9DC68700245820 /* Assets.xcassets */,
 				D0C733BA1C9DC68700245820 /* LaunchScreen.storyboard */,
@@ -269,6 +275,8 @@
 				D0C733B21C9DC68700245820 /* AppDelegate.swift in Sources */,
 				D0C733E01C9DD6CC00245820 /* CustomBtn.swift in Sources */,
 				D0DE94641CA03334001A8D43 /* CustomLbl.swift in Sources */,
+				D0DE94661CA09688001A8D43 /* LabelText.swift in Sources */,
+				D0DE94681CA13B2A001A8D43 /* LabelTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
