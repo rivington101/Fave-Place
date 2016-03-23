@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -253,21 +254,34 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Map" translatesAutoresizingMaskIntoConstraints="NO" id="Yel-oS-XqT">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="344"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="344" id="ElG-RC-lRh">
+                                        <variation key="heightClass=compact" constant="240"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" constant="232" id="KhC-sH-LmR"/>
                                     <constraint firstAttribute="height" constant="193" id="RDT-Os-sED"/>
                                     <constraint firstAttribute="height" constant="323" id="VPc-pC-1GX"/>
                                     <constraint firstAttribute="width" constant="136" id="ccC-MY-6nq"/>
                                     <constraint firstAttribute="width" constant="168" id="gEa-Pl-yGk"/>
+                                    <constraint firstAttribute="width" constant="240" id="gtW-Ko-EBr"/>
                                     <constraint firstAttribute="height" constant="228" id="wD6-bt-rXe"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="ElG-RC-lRh"/>
                                         <exclude reference="KhC-sH-LmR"/>
                                         <exclude reference="RDT-Os-sED"/>
                                         <exclude reference="VPc-pC-1GX"/>
                                         <exclude reference="ccC-MY-6nq"/>
                                         <exclude reference="gEa-Pl-yGk"/>
+                                        <exclude reference="gtW-Ko-EBr"/>
                                         <exclude reference="wD6-bt-rXe"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="20" width="240" height="344"/>
+                                    <mask key="constraints">
+                                        <include reference="ElG-RC-lRh"/>
+                                        <include reference="gtW-Ko-EBr"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -281,72 +295,6 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-lC-2ca">
-                                <rect key="frame" x="0.0" y="270" width="6700" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0N-4v-7Fx" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="3351" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="17" id="Xwa-gm-41l">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="16"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Xwa-gm-41l"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="1134021" height="17"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="Xwa-gm-41l"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-4e-pNv" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="3350" y="0.0" width="3351" height="20"/>
-                                        <string key="text">Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="1134020" y="0.0" width="1134021" height="17"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="2IN-63-EUb"/>
-                                    <constraint firstAttribute="height" constant="170" id="SoJ-u3-cOU">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="170" id="dLa-AP-VBX">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="2IN-63-EUb"/>
-                                        <exclude reference="SoJ-u3-cOU"/>
-                                        <exclude reference="dLa-AP-VBX"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="270" width="2268041" height="17"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="20" y="282" width="360" height="160"/>
-                                    <mask key="constraints">
-                                        <include reference="2IN-63-EUb"/>
-                                        <exclude reference="SoJ-u3-cOU"/>
-                                        <exclude reference="dLa-AP-VBX"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Fba-te-iEE">
                                 <rect key="frame" x="130" y="0.0" width="4768" height="21"/>
                                 <subviews>
@@ -365,8 +313,8 @@
                                                 <exclude reference="VNE-FO-1d8"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="809775" height="21"/>
+                                        <variation key="heightClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="332" height="21"/>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="constraints">
@@ -395,8 +343,8 @@
                                                 <exclude reference="yzJ-Bt-FXn"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="809776" y="0.0" width="809775" height="21"/>
+                                        <variation key="heightClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="22" width="332" height="89"/>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="constraints">
@@ -408,12 +356,96 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="130" y="0.0" width="1619550" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="q6r-WS-M1X">
+                                        <variation key="heightClass=compact" constant="110"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="q6r-WS-M1X"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" axis="vertical">
+                                    <mask key="constraints">
+                                        <include reference="q6r-WS-M1X"/>
+                                    </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CF4-0T-K53">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-lC-2ca">
+                                <rect key="frame" x="0.0" y="270" width="38653" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0N-4v-7Fx" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="19326" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Xwa-gm-41l">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="16"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Xwa-gm-41l"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="332" height="17"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="Xwa-gm-41l"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-4e-pNv" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="19327" y="0.0" width="19326" height="17"/>
+                                        <string key="text">Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact" ambiguous="YES">
+                                            <rect key="frame" x="0.0" y="18" width="332" height="102"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="2IN-63-EUb"/>
+                                    <constraint firstAttribute="height" constant="170" id="SoJ-u3-cOU">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="50" id="SzH-p6-MaF">
+                                        <variation key="heightClass=compact" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="170" id="dLa-AP-VBX">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2IN-63-EUb"/>
+                                        <exclude reference="SoJ-u3-cOU"/>
+                                        <exclude reference="SzH-p6-MaF"/>
+                                        <exclude reference="dLa-AP-VBX"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" axis="vertical">
+                                    <mask key="constraints">
+                                        <include reference="SzH-p6-MaF"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
+                                    <rect key="frame" x="20" y="282" width="360" height="160"/>
+                                    <mask key="constraints">
+                                        <include reference="2IN-63-EUb"/>
+                                        <exclude reference="SoJ-u3-cOU"/>
+                                        <exclude reference="dLa-AP-VBX"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CF4-0T-K53">
                                 <rect key="frame" x="-20" y="201" width="122" height="21"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scf-kB-bOX" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
@@ -421,22 +453,30 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="81" height="21"/>
-                                        </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2,165" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-ta-pFV" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                         <rect key="frame" x="80" y="0.0" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="80" y="0.0" width="42" height="21"/>
-                                        </variation>
                                     </label>
                                 </subviews>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="-20" y="201" width="122" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1RV-sF-FPs"/>
+                                    <constraint firstAttribute="width" constant="128" id="e4v-ec-Gtj"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1RV-sF-FPs"/>
+                                        <exclude reference="e4v-ec-Gtj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" axis="horizontal" misplaced="YES">
+                                    <rect key="frame" x="20" y="364" width="128" height="21"/>
+                                    <mask key="constraints">
+                                        <include reference="1RV-sF-FPs"/>
+                                        <include reference="e4v-ec-Gtj"/>
+                                    </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
                                     <rect key="frame" x="20" y="231" width="81" height="40"/>
@@ -469,40 +509,43 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="g7R-ci-NbZ"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="uxs-bq-bx4">
-                                <rect key="frame" x="0.0" y="430" width="227" height="175"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="uxs-bq-bx4">
+                                <rect key="frame" x="0.0" y="430" width="676" height="21"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things To Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-bb-0xU" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="20" width="108" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Things To Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-bb-0xU" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fine Pubs &amp; Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-tL-qwh" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="49" width="187" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fine Pubs &amp; Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-tL-qwh" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="104" y="0.0" width="187" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fishing For Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFH-j1-KXD" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="76" width="138" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fishing For Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFH-j1-KXD" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="293" y="0.0" width="134" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coastal Walks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-pT-cRP" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="105" width="108" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Coastal Walks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-pT-cRP" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="429" y="0.0" width="108" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beautiful Beaches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZR-5F-mfm" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="134" width="146" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Beautiful Beaches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZR-5F-mfm" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                        <rect key="frame" x="538" y="0.0" width="138" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <variation key="heightClass=compact" axis="vertical" misplaced="YES">
+                                    <rect key="frame" x="248" y="260" width="187" height="111"/>
+                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
                                     <rect key="frame" x="20" y="450" width="187" height="111"/>
                                 </variation>
@@ -511,47 +554,102 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="G8D-pK-IcW" firstAttribute="trailing" secondItem="5Ds-jF-IlK" secondAttribute="trailingMargin" id="1oK-kE-gaP"/>
+                            <constraint firstItem="tCi-lC-2ca" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="2iZ-xM-1Pz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fba-te-iEE" secondAttribute="trailing" id="6mK-mN-Sbe"/>
+                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="7Co-g7-QCo">
+                                <variation key="heightClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="tCi-lC-2ca" secondAttribute="leading" id="9AR-co-6LH"/>
                             <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="G8D-pK-IcW" secondAttribute="bottom" id="Ars-9R-Qn0">
                                 <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="tCi-lC-2ca" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="DQI-zy-qwj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="EyO-hg-MIA"/>
+                            <constraint firstItem="Yel-oS-XqT" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="HrT-Mj-svT"/>
                             <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="14" id="I3E-8z-3RF"/>
                             <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="Iee-OR-Aij"/>
                             <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="Sdi-qL-cab"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="Zwm-cY-8gq"/>
                             <constraint firstItem="tCi-lC-2ca" firstAttribute="top" secondItem="Fba-te-iEE" secondAttribute="bottom" constant="10" id="bQY-wq-5oP"/>
                             <constraint firstItem="G8D-pK-IcW" firstAttribute="centerX" secondItem="5Ds-jF-IlK" secondAttribute="centerX" id="ezz-3l-tGU"/>
                             <constraint firstItem="uxs-bq-bx4" firstAttribute="top" secondItem="tCi-lC-2ca" secondAttribute="bottom" constant="8" id="fk5-os-oaG"/>
                             <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="fyI-4n-hQb"/>
                             <constraint firstItem="CF4-0T-K53" firstAttribute="bottom" secondItem="Fba-te-iEE" secondAttribute="bottom" id="g2J-47-MKC"/>
+                            <constraint firstItem="uxs-bq-bx4" firstAttribute="trailing" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="iIB-gb-ose"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="uxs-bq-bx4" secondAttribute="bottom" id="kCz-1R-wn1"/>
                             <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="kl1-HG-kgU"/>
+                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="lO9-tv-9ST"/>
+                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="5Ds-jF-IlK" secondAttribute="top" id="oGb-QX-sKN"/>
                             <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="oyx-t2-9oD"/>
+                            <constraint firstItem="tCi-lC-2ca" firstAttribute="top" secondItem="Fba-te-iEE" secondAttribute="bottom" constant="8" id="ppH-Vj-Jjt">
+                                <variation key="heightClass=compact" constant="2"/>
+                            </constraint>
+                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="q28-cX-BbI"/>
                             <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="G8D-pK-IcW" secondAttribute="bottom" id="qjD-Pi-wFT"/>
+                            <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="rP7-pQ-XyS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uxs-bq-bx4" secondAttribute="trailing" id="sUT-ed-6qL"/>
                             <constraint firstItem="Yel-oS-XqT" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="tVO-1h-A3z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fba-te-iEE" secondAttribute="trailing" id="xEq-CS-JvP"/>
+                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="CF4-0T-K53" secondAttribute="bottom" id="xez-zI-tpD">
+                                <variation key="heightClass=compact" constant="5"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="G8D-pK-IcW"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="1oK-kE-gaP"/>
+                                <exclude reference="ezz-3l-tGU"/>
+                                <exclude reference="7Co-g7-QCo"/>
+                                <exclude reference="HrT-Mj-svT"/>
                                 <exclude reference="kl1-HG-kgU"/>
+                                <exclude reference="oGb-QX-sKN"/>
                                 <exclude reference="tVO-1h-A3z"/>
                                 <exclude reference="6mK-mN-Sbe"/>
                                 <exclude reference="I3E-8z-3RF"/>
                                 <exclude reference="oyx-t2-9oD"/>
+                                <exclude reference="q28-cX-BbI"/>
+                                <exclude reference="rP7-pQ-XyS"/>
+                                <exclude reference="xEq-CS-JvP"/>
+                                <exclude reference="2iZ-xM-1Pz"/>
+                                <exclude reference="DQI-zy-qwj"/>
+                                <exclude reference="EyO-hg-MIA"/>
+                                <exclude reference="Zwm-cY-8gq"/>
+                                <exclude reference="bQY-wq-5oP"/>
+                                <exclude reference="ppH-Vj-Jjt"/>
+                                <exclude reference="9AR-co-6LH"/>
+                                <exclude reference="fk5-os-oaG"/>
+                                <exclude reference="fyI-4n-hQb"/>
+                                <exclude reference="iIB-gb-ose"/>
+                                <exclude reference="kCz-1R-wn1"/>
+                                <exclude reference="sUT-ed-6qL"/>
                                 <exclude reference="Iee-OR-Aij"/>
                                 <exclude reference="Sdi-qL-cab"/>
                                 <exclude reference="g2J-47-MKC"/>
-                                <exclude reference="DQI-zy-qwj"/>
-                                <exclude reference="EyO-hg-MIA"/>
-                                <exclude reference="bQY-wq-5oP"/>
-                                <exclude reference="fk5-os-oaG"/>
-                                <exclude reference="fyI-4n-hQb"/>
+                                <exclude reference="lO9-tv-9ST"/>
                                 <exclude reference="Ars-9R-Qn0"/>
                                 <exclude reference="qjD-Pi-wFT"/>
-                                <exclude reference="1oK-kE-gaP"/>
-                                <exclude reference="ezz-3l-tGU"/>
+                                <exclude reference="xez-zI-tpD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="7Co-g7-QCo"/>
+                                <include reference="HrT-Mj-svT"/>
+                                <exclude reference="oGb-QX-sKN"/>
+                                <include reference="q28-cX-BbI"/>
+                                <include reference="rP7-pQ-XyS"/>
+                                <include reference="xEq-CS-JvP"/>
+                                <include reference="2iZ-xM-1Pz"/>
+                                <include reference="Zwm-cY-8gq"/>
+                                <include reference="ppH-Vj-Jjt"/>
+                                <include reference="9AR-co-6LH"/>
+                                <exclude reference="iIB-gb-ose"/>
+                                <include reference="kCz-1R-wn1"/>
+                                <exclude reference="sUT-ed-6qL"/>
+                                <include reference="lO9-tv-9ST"/>
+                                <include reference="xez-zI-tpD"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -559,30 +657,30 @@
                                 <include reference="G8D-pK-IcW"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="1oK-kE-gaP"/>
+                                <exclude reference="ezz-3l-tGU"/>
                                 <include reference="kl1-HG-kgU"/>
                                 <include reference="tVO-1h-A3z"/>
                                 <include reference="6mK-mN-Sbe"/>
                                 <include reference="I3E-8z-3RF"/>
                                 <include reference="oyx-t2-9oD"/>
-                                <exclude reference="Iee-OR-Aij"/>
-                                <include reference="Sdi-qL-cab"/>
-                                <include reference="g2J-47-MKC"/>
                                 <include reference="DQI-zy-qwj"/>
                                 <include reference="EyO-hg-MIA"/>
                                 <include reference="bQY-wq-5oP"/>
                                 <include reference="fk5-os-oaG"/>
                                 <include reference="fyI-4n-hQb"/>
+                                <exclude reference="Iee-OR-Aij"/>
+                                <include reference="Sdi-qL-cab"/>
+                                <include reference="g2J-47-MKC"/>
                                 <include reference="Ars-9R-Qn0"/>
                                 <exclude reference="qjD-Pi-wFT"/>
-                                <include reference="1oK-kE-gaP"/>
-                                <exclude reference="ezz-3l-tGU"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMP-Gk-Xq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="636" y="591"/>
+            <point key="canvasLocation" x="588" y="591"/>
         </scene>
     </scenes>
     <resources>
