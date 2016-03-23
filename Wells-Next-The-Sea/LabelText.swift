@@ -12,7 +12,7 @@ class LabelText: UILabel {
 
     override func awakeFromNib() {
         textColor = UIColor(red: 142.0/255.0, green: 159.0/255.0, blue: 209.0/255.0, alpha: 1.0)
-        font = UIFont(name: "HelveticaNeue-Bold", size: 12.0)
+        font = UIFont(name: "HelveticaNeue-Bold", size: 17.0)
         self.adjustsFontSizeToFitWidth = true
     }
 
