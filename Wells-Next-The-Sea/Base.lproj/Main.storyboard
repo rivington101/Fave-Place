@@ -16,11 +16,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbour" translatesAutoresizingMaskIntoConstraints="NO" id="ODL-33-t8X">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="1700"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="WELLS-NEXT-THE-SEA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yft-lg-3C9">
                                 <rect key="frame" x="151" y="40" width="298" height="46"/>
@@ -983,7 +983,9 @@
                                                     <constraint firstAttribute="width" constant="307" id="XM4-Vv-34s"/>
                                                     <constraint firstAttribute="height" constant="190" id="cKP-ra-0rK"/>
                                                     <constraint firstAttribute="width" constant="375" id="kdn-HV-dFP"/>
-                                                    <constraint firstAttribute="height" constant="250" id="tLU-LY-fwF"/>
+                                                    <constraint firstAttribute="height" constant="250" id="tLU-LY-fwF">
+                                                        <variation key="heightClass=compact" constant="240"/>
+                                                    </constraint>
                                                 </constraints>
                                                 <variation key="default">
                                                     <mask key="constraints">
@@ -1041,7 +1043,9 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="holkham-hall1" translatesAutoresizingMaskIntoConstraints="NO" id="ETf-tu-uDF">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="250" id="Xxj-ab-ESh"/>
+                                                    <constraint firstAttribute="height" constant="250" id="Xxj-ab-ESh">
+                                                        <variation key="heightClass=compact" constant="240"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="height" constant="190" id="YiS-OO-zqf"/>
                                                     <constraint firstAttribute="width" constant="307" id="dN4-Gj-iCG"/>
                                                     <constraint firstAttribute="width" constant="375" id="dXy-7P-iAj"/>
@@ -1103,7 +1107,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="190" id="cmO-UP-G5d"/>
-                                                    <constraint firstAttribute="height" constant="250" id="oMf-D6-zAH"/>
+                                                    <constraint firstAttribute="height" constant="250" id="oMf-D6-zAH">
+                                                        <variation key="heightClass=compact" constant="240"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" constant="375" id="p2g-gm-wCB"/>
                                                     <constraint firstAttribute="width" constant="307" id="vhk-14-b5g"/>
                                                 </constraints>
@@ -1165,7 +1171,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="307" id="5HA-L1-cpx"/>
                                                     <constraint firstAttribute="width" constant="375" id="7vP-nZ-OTK"/>
-                                                    <constraint firstAttribute="height" constant="250" id="Co9-es-vL6"/>
+                                                    <constraint firstAttribute="height" constant="250" id="Co9-es-vL6">
+                                                        <variation key="heightClass=compact" constant="240"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="height" constant="190" id="edL-Kg-Zsi"/>
                                                 </constraints>
                                                 <variation key="default">
@@ -1225,7 +1233,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="375" id="9qU-lP-h7l"/>
-                                                    <constraint firstAttribute="height" constant="250" id="CXT-mf-HtG"/>
+                                                    <constraint firstAttribute="height" constant="250" id="CXT-mf-HtG">
+                                                        <variation key="heightClass=compact" constant="240"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" constant="307" id="Id6-7c-kjd"/>
                                                     <constraint firstAttribute="height" constant="190" id="lHZ-tx-IfK"/>
                                                 </constraints>
@@ -1320,7 +1330,9 @@
                                             <constraint firstItem="cTV-jc-p1w" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="dGF-zJ-ljG"/>
                                             <constraint firstItem="muH-hs-fo0" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="dxb-jG-NH8"/>
                                             <constraint firstItem="ETf-tu-uDF" firstAttribute="top" secondItem="cTV-jc-p1w" secondAttribute="bottom" constant="15" id="e5B-vq-3h7"/>
-                                            <constraint firstItem="vg3-ir-y3Q" firstAttribute="top" secondItem="owg-mH-9bp" secondAttribute="top" constant="20" id="fP1-pq-7ki"/>
+                                            <constraint firstItem="vg3-ir-y3Q" firstAttribute="top" secondItem="owg-mH-9bp" secondAttribute="top" constant="20" id="fP1-pq-7ki">
+                                                <variation key="heightClass=compact" constant="0.0"/>
+                                            </constraint>
                                             <constraint firstItem="myt-fH-6Li" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="nhv-O5-nCB"/>
                                             <constraint firstItem="tQe-YB-3qh" firstAttribute="top" secondItem="up0-IG-Ek5" secondAttribute="bottom" constant="8" id="nkL-c8-aTe"/>
                                             <constraint firstItem="Myk-Hv-cj6" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="pOb-Nd-M8l"/>
