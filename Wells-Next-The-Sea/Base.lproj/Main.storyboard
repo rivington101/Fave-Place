@@ -31,9 +31,6 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="51" y="40" width="298" height="46"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g48-Xf-Yb2" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                 <rect key="frame" x="253" y="535" width="95" height="30"/>
@@ -66,8 +63,7 @@
                                         <include reference="WsV-M4-hsH"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="160" y="742" width="80" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="77Q-1w-WOS"/>
                                         <include reference="PHg-Zi-dXg"/>
@@ -213,7 +209,7 @@
                                 <include reference="Rck-c5-Vro"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="RcD-RA-4ae"/>
+                                <exclude reference="RcD-RA-4ae"/>
                                 <exclude reference="Cj5-HQ-EH2"/>
                                 <include reference="wxJ-go-7jV"/>
                                 <include reference="cHG-9t-F0M"/>
@@ -256,693 +252,129 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wells-next-the-sea-beach-huts" translatesAutoresizingMaskIntoConstraints="NO" id="soB-LC-eDt">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Map" translatesAutoresizingMaskIntoConstraints="NO" id="Yel-oS-XqT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Map" translatesAutoresizingMaskIntoConstraints="NO" id="Yel-oS-XqT">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="344"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="344" id="ElG-RC-lRh">
-                                        <variation key="heightClass=compact" constant="240"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="232" id="KhC-sH-LmR"/>
-                                    <constraint firstAttribute="height" constant="193" id="RDT-Os-sED"/>
-                                    <constraint firstAttribute="height" constant="323" id="VPc-pC-1GX"/>
-                                    <constraint firstAttribute="width" constant="136" id="ccC-MY-6nq"/>
-                                    <constraint firstAttribute="width" constant="231" id="frg-6R-9Sh">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="220"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="168" id="gEa-Pl-yGk"/>
-                                    <constraint firstAttribute="width" constant="240" id="gtW-Ko-EBr">
-                                        <variation key="heightClass=compact" constant="180"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="344" id="pS5-89-7ic">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="344"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="228" id="wD6-bt-rXe"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="ElG-RC-lRh"/>
-                                        <exclude reference="KhC-sH-LmR"/>
-                                        <exclude reference="RDT-Os-sED"/>
-                                        <exclude reference="VPc-pC-1GX"/>
-                                        <exclude reference="ccC-MY-6nq"/>
-                                        <exclude reference="frg-6R-9Sh"/>
-                                        <exclude reference="gEa-Pl-yGk"/>
-                                        <exclude reference="gtW-Ko-EBr"/>
-                                        <exclude reference="pS5-89-7ic"/>
-                                        <exclude reference="wD6-bt-rXe"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="20" width="180" height="240"/>
-                                    <mask key="constraints">
-                                        <include reference="ElG-RC-lRh"/>
-                                        <include reference="gtW-Ko-EBr"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <exclude reference="KhC-sH-LmR"/>
-                                        <include reference="RDT-Os-sED"/>
-                                        <exclude reference="VPc-pC-1GX"/>
-                                        <include reference="ccC-MY-6nq"/>
-                                        <exclude reference="gEa-Pl-yGk"/>
-                                        <exclude reference="wD6-bt-rXe"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="28" width="231" height="330"/>
-                                    <mask key="constraints">
-                                        <include reference="frg-6R-9Sh"/>
-                                        <include reference="pS5-89-7ic"/>
-                                    </mask>
-                                </variation>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Fba-te-iEE">
-                                <rect key="frame" x="130" y="0.0" width="4768" height="21"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3z-cg-277" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="2384" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="Clh-ez-GUt"/>
-                                            <constraint firstAttribute="height" constant="21" id="VNE-FO-1d8"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Clh-ez-GUt"/>
-                                                <exclude reference="VNE-FO-1d8"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="392" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="Clh-ez-GUt"/>
-                                                <include reference="VNE-FO-1d8"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="525" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-Kq-ZEy" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="2385" y="0.0" width="2384" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="6MJ-KK-L3j"/>
-                                            <constraint firstAttribute="height" constant="228" id="7LQ-iH-y38"/>
-                                            <constraint firstAttribute="width" constant="230" id="qh2-xS-LxZ"/>
-                                            <constraint firstAttribute="width" constant="100" id="yzJ-Bt-FXn"/>
-                                        </constraints>
-                                        <string key="text">Wells Next The Sea is a traditional fishing port and holiday town on the beautiful north coast of the county of Norfolk in the UK.  It is one of the most attractive towns on the north Norfolk coast. It features many narrow lanes nicely sheltered from the offshore winds and makes a very good base for exploring the surrounding coastline and countryside.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="6MJ-KK-L3j"/>
-                                                <exclude reference="7LQ-iH-y38"/>
-                                                <exclude reference="qh2-xS-LxZ"/>
-                                                <exclude reference="yzJ-Bt-FXn"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="22" width="392" height="89"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <exclude reference="6MJ-KK-L3j"/>
-                                                <include reference="7LQ-iH-y38"/>
-                                                <exclude reference="qh2-xS-LxZ"/>
-                                                <exclude reference="yzJ-Bt-FXn"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="22" width="525" height="90"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="q6r-WS-M1X">
-                                        <variation key="heightClass=compact" constant="110"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="150" id="qH9-Ac-Qd5"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="q6r-WS-M1X"/>
-                                        <exclude reference="qH9-Ac-Qd5"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" axis="vertical">
-                                    <mask key="constraints">
-                                        <include reference="q6r-WS-M1X"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical"/>
-                                <variation key="heightClass=regular-widthClass=regular" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="259" y="28" width="525" height="112"/>
-                                    <mask key="constraints">
-                                        <exclude reference="qH9-Ac-Qd5"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-lC-2ca">
-                                <rect key="frame" x="0.0" y="270" width="6702" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0N-4v-7Fx" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="3351" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="17" id="Xwa-gm-41l">
-                                                <variation key="heightClass=regular-widthClass=compact" constant="16"/>
-                                            </constraint>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Xwa-gm-41l"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="392" height="17"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="47" height="16"/>
-                                            <mask key="constraints">
-                                                <include reference="Xwa-gm-41l"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-4e-pNv" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="3352" y="0.0" width="3351" height="20"/>
-                                        <string key="text">Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="18" width="392" height="102"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="2IN-63-EUb"/>
-                                    <constraint firstAttribute="height" constant="170" id="SoJ-u3-cOU">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="50" id="SzH-p6-MaF">
-                                        <variation key="heightClass=compact" constant="120"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="150" id="Utq-Uh-FWE"/>
-                                    <constraint firstAttribute="height" constant="170" id="dLa-AP-VBX">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="2IN-63-EUb"/>
-                                        <exclude reference="SoJ-u3-cOU"/>
-                                        <exclude reference="SzH-p6-MaF"/>
-                                        <exclude reference="Utq-Uh-FWE"/>
-                                        <exclude reference="dLa-AP-VBX"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" axis="vertical">
-                                    <mask key="constraints">
-                                        <include reference="SzH-p6-MaF"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="20" y="282" width="360" height="160"/>
-                                    <mask key="constraints">
-                                        <include reference="2IN-63-EUb"/>
-                                        <exclude reference="SoJ-u3-cOU"/>
-                                        <exclude reference="dLa-AP-VBX"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="259" y="208" width="525" height="152"/>
-                                    <mask key="constraints">
-                                        <exclude reference="Utq-Uh-FWE"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="uxs-bq-bx4">
-                                <rect key="frame" x="0.0" y="430" width="672" height="21"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Things To Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-bb-0xU" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="187" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fine Pubs &amp; Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-tL-qwh" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="103" y="0.0" width="187" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="22" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="22" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="22" width="187" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fishing For Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFH-j1-KXD" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="291" y="0.0" width="134" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="43" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="43" width="134" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="44" width="187" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Coastal Walks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-pT-cRP" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="426" y="0.0" width="108" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="65" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="65" width="108" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="65" width="187" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Beautiful Beaches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZR-5F-mfm" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="534" y="0.0" width="138" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="86" width="187" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="86" width="138" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="87" width="187" height="21"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="187" id="iZu-Se-7KT"/>
-                                    <constraint firstAttribute="height" constant="107" id="uYo-fM-2t5"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="iZu-Se-7KT"/>
-                                        <exclude reference="uYo-fM-2t5"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="188" y="254" width="187" height="107"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="20" y="450" width="187" height="107"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="20" y="450" width="187" height="107"/>
-                                    <mask key="constraints">
-                                        <include reference="iZu-Se-7KT"/>
-                                        <include reference="uYo-fM-2t5"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CF4-0T-K53">
-                                <rect key="frame" x="-20" y="201" width="128" height="21"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scf-kB-bOX" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="81" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="83" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="81" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2,165" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-ta-pFV" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                        <rect key="frame" x="86" y="0.0" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" ambiguous="YES">
-                                            <rect key="frame" x="88" y="0.0" width="42" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="26" width="42" height="21"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="1RV-sF-FPs"/>
-                                    <constraint firstAttribute="width" constant="128" id="3UA-wR-hBl"/>
-                                    <constraint firstAttribute="width" constant="128" id="e4v-ec-Gtj">
-                                        <variation key="heightClass=compact" constant="130"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="21" id="gW6-dy-DKW"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="1RV-sF-FPs"/>
-                                        <exclude reference="3UA-wR-hBl"/>
-                                        <exclude reference="e4v-ec-Gtj"/>
-                                        <exclude reference="gW6-dy-DKW"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact" axis="horizontal" misplaced="YES">
-                                    <rect key="frame" x="20" y="274" width="130" height="21"/>
-                                    <mask key="constraints">
-                                        <include reference="1RV-sF-FPs"/>
-                                        <include reference="e4v-ec-Gtj"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" alignment="top" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="20" y="231" width="81" height="46"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" axis="horizontal">
-                                    <mask key="constraints">
-                                        <include reference="3UA-wR-hBl"/>
-                                        <include reference="gW6-dy-DKW"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0N-4v-7Fx" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="3351" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-4e-pNv" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="3351" height="20"/>
+                                <string key="text">Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things To Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-bb-0xU" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fine Pubs &amp; Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-tL-qwh" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fishing For Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFH-j1-KXD" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coastal Walks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-pT-cRP" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beautiful Beaches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZR-5F-mfm" customClass="CustomLbl" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scf-kB-bOX" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,165" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-ta-pFV" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8D-pK-IcW" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="84y-8j-LbY"/>
-                                    <constraint firstAttribute="width" constant="58" id="CP7-YM-fQw"/>
-                                    <constraint firstAttribute="height" constant="16" id="K5z-J4-Zrh"/>
-                                    <constraint firstAttribute="height" constant="21" id="MU4-Yy-C4q"/>
-                                    <constraint firstAttribute="width" constant="76" id="Zxr-SZ-a7q"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="cRl-1e-wwE"/>
-                                    <constraint firstAttribute="width" constant="46" id="sZm-pb-jup">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="45"/>
-                                    </constraint>
-                                    <constraint firstAttribute="height" constant="30" id="xgz-3c-Y5w">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="22"/>
-                                    </constraint>
-                                </constraints>
                                 <state key="normal" title="Back"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="84y-8j-LbY"/>
-                                        <exclude reference="CP7-YM-fQw"/>
-                                        <exclude reference="K5z-J4-Zrh"/>
-                                        <exclude reference="MU4-Yy-C4q"/>
-                                        <exclude reference="Zxr-SZ-a7q"/>
-                                        <exclude reference="cRl-1e-wwE"/>
-                                        <exclude reference="sZm-pb-jup"/>
-                                        <exclude reference="xgz-3c-Y5w"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="K5z-J4-Zrh"/>
-                                        <include reference="Zxr-SZ-a7q"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="84y-8j-LbY"/>
-                                        <include reference="cRl-1e-wwE"/>
-                                        <include reference="sZm-pb-jup"/>
-                                        <include reference="xgz-3c-Y5w"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="CP7-YM-fQw"/>
-                                        <include reference="MU4-Yy-C4q"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="g7R-ci-NbZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3z-cg-277" customClass="LabelTitle" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="2384" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-Kq-ZEy" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="2385" y="0.0" width="2384" height="21"/>
+                                <string key="text">Wells Next The Sea is a traditional fishing port and holiday town on the beautiful north coast of the county of Norfolk in the UK.  It is one of the most attractive towns on the north Norfolk coast. It features many narrow lanes nicely sheltered from the offshore winds and makes a very good base for exploring the surrounding coastline and countryside.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="soB-LC-eDt" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="1av-ps-wuI"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="2iZ-xM-1Pz"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="top" secondItem="Fba-te-iEE" secondAttribute="bottom" constant="14" id="2se-Wp-UcH"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="top" secondItem="CF4-0T-K53" secondAttribute="bottom" constant="24" id="2vo-vs-Csz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="soB-LC-eDt" secondAttribute="trailing" constant="-4" id="4AG-OT-Vfc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Fba-te-iEE" secondAttribute="trailing" id="6mK-mN-Sbe"/>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="7Co-g7-QCo">
-                                <variation key="heightClass=compact" constant="5"/>
-                            </constraint>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="tCi-lC-2ca" secondAttribute="leading" id="9AR-co-6LH"/>
-                            <constraint firstItem="G8D-pK-IcW" firstAttribute="trailing" secondItem="5Ds-jF-IlK" secondAttribute="trailingMargin" id="AMC-cM-AT4"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="soB-LC-eDt" secondAttribute="bottom" constant="20" id="Anl-DN-y5S"/>
-                            <constraint firstItem="soB-LC-eDt" firstAttribute="leading" secondItem="tCi-lC-2ca" secondAttribute="leading" id="D0P-Zw-cQ9"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="DQI-zy-qwj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="EyO-hg-MIA"/>
-                            <constraint firstAttribute="trailing" secondItem="soB-LC-eDt" secondAttribute="trailing" id="GY9-Al-rCN"/>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="HrT-Mj-svT"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="14" id="I3E-8z-3RF"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="Iee-OR-Aij"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="top" secondItem="Yel-oS-XqT" secondAttribute="bottom" constant="14" id="J2l-6z-ALa"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="JPw-vZ-WWt">
-                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
-                            </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="LcQ-6K-y19"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="G8D-pK-IcW" secondAttribute="bottom" constant="20" id="P9g-PR-F4g"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="top" secondItem="Yel-oS-XqT" secondAttribute="bottom" constant="15" id="PRS-DD-X0S"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="uxs-bq-bx4" secondAttribute="bottom" constant="33" id="Q0Q-xq-Ads"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="Yel-oS-XqT" secondAttribute="top" id="Q3C-6D-uF3"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="top" secondItem="tCi-lC-2ca" secondAttribute="bottom" constant="8" id="Qhm-tS-kah">
-                                <variation key="heightClass=compact" constant="2"/>
-                            </constraint>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="Sdi-qL-cab"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" constant="110" id="U0q-di-60C"/>
-                            <constraint firstItem="soB-LC-eDt" firstAttribute="top" secondItem="5Ds-jF-IlK" secondAttribute="top" id="YUM-7c-DXJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Fba-te-iEE" secondAttribute="trailing" id="Yq3-N5-eF9"/>
-                            <constraint firstItem="soB-LC-eDt" firstAttribute="top" secondItem="tCi-lC-2ca" secondAttribute="bottom" constant="14" id="ZOG-G1-CdF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="Zwm-cY-8gq"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="top" secondItem="Fba-te-iEE" secondAttribute="bottom" constant="10" id="bQY-wq-5oP"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="bottom" secondItem="Yel-oS-XqT" secondAttribute="bottom" id="cX0-jM-3G2"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="e7I-Ou-jW3"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="emn-Kz-jSh">
-                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
-                            </constraint>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="fOI-rR-SIi"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="top" secondItem="tCi-lC-2ca" secondAttribute="bottom" constant="8" id="fk5-os-oaG"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="fyI-4n-hQb"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="bottom" secondItem="Fba-te-iEE" secondAttribute="bottom" id="g2J-47-MKC"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="G8D-pK-IcW" secondAttribute="bottom" constant="15" id="ghK-Tb-Pwr"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="trailing" secondItem="tCi-lC-2ca" secondAttribute="trailing" id="iIB-gb-ose"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="uxs-bq-bx4" secondAttribute="bottom" id="kCz-1R-wn1"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="kD1-dn-NA9"/>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="kl1-HG-kgU"/>
-                            <constraint firstItem="CF4-0T-K53" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="lO9-tv-9ST">
-                                <variation key="heightClass=compact" constant="3"/>
-                            </constraint>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" constant="-20" id="m1H-8w-e5q">
-                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
-                            </constraint>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="5Ds-jF-IlK" secondAttribute="top" id="oGb-QX-sKN"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="oyx-t2-9oD"/>
-                            <constraint firstItem="tCi-lC-2ca" firstAttribute="top" secondItem="Fba-te-iEE" secondAttribute="bottom" constant="8" id="ppH-Vj-Jjt">
-                                <variation key="heightClass=compact" constant="2"/>
-                            </constraint>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="Yel-oS-XqT" secondAttribute="trailing" constant="8" id="q28-cX-BbI"/>
-                            <constraint firstItem="G8D-pK-IcW" firstAttribute="top" secondItem="uxs-bq-bx4" secondAttribute="bottom" constant="14" id="qz4-oB-yga"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="1Ok-hw-cYT" secondAttribute="bottom" id="rP7-pQ-XyS"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="top" secondItem="5Ds-jF-IlK" secondAttribute="topMargin" id="rxS-jq-f2x"/>
-                            <constraint firstItem="Fba-te-iEE" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leadingMargin" id="s9g-aH-X2w"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uxs-bq-bx4" secondAttribute="trailing" id="sUT-ed-6qL"/>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="top" secondItem="5Ds-jF-IlK" secondAttribute="topMargin" id="sqQ-fr-puG">
-                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
-                            </constraint>
-                            <constraint firstItem="Yel-oS-XqT" firstAttribute="leading" secondItem="5Ds-jF-IlK" secondAttribute="leading" id="tVO-1h-A3z"/>
-                            <constraint firstItem="G8D-pK-IcW" firstAttribute="trailing" secondItem="5Ds-jF-IlK" secondAttribute="trailingMargin" id="urH-qN-y1F"/>
-                            <constraint firstItem="uxs-bq-bx4" firstAttribute="leading" secondItem="G8D-pK-IcW" secondAttribute="leading" id="wRc-5a-rHP"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="soB-LC-eDt" secondAttribute="bottom" id="wiG-Wp-cqX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Fba-te-iEE" secondAttribute="trailing" id="xEq-CS-JvP"/>
-                            <constraint firstItem="AVc-uB-LaL" firstAttribute="top" secondItem="CF4-0T-K53" secondAttribute="bottom" id="xez-zI-tpD">
-                                <variation key="heightClass=compact" constant="15"/>
-                            </constraint>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="soB-LC-eDt"/>
+                                <exclude reference="Yel-oS-XqT"/>
+                                <exclude reference="E0N-4v-7Fx"/>
+                                <exclude reference="Bza-4e-pNv"/>
+                                <exclude reference="1gC-bb-0xU"/>
+                                <exclude reference="m2M-tL-qwh"/>
+                                <exclude reference="lFH-j1-KXD"/>
+                                <exclude reference="wMJ-pT-cRP"/>
+                                <exclude reference="EZR-5F-mfm"/>
+                                <exclude reference="Scf-kB-bOX"/>
+                                <exclude reference="IJz-ta-pFV"/>
                                 <exclude reference="G8D-pK-IcW"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="AMC-cM-AT4"/>
-                                <exclude reference="qz4-oB-yga"/>
-                                <exclude reference="urH-qN-y1F"/>
-                                <exclude reference="1av-ps-wuI"/>
-                                <exclude reference="4AG-OT-Vfc"/>
-                                <exclude reference="D0P-Zw-cQ9"/>
-                                <exclude reference="GY9-Al-rCN"/>
-                                <exclude reference="YUM-7c-DXJ"/>
-                                <exclude reference="ZOG-G1-CdF"/>
-                                <exclude reference="7Co-g7-QCo"/>
-                                <exclude reference="HrT-Mj-svT"/>
-                                <exclude reference="kl1-HG-kgU"/>
-                                <exclude reference="m1H-8w-e5q"/>
-                                <exclude reference="oGb-QX-sKN"/>
-                                <exclude reference="sqQ-fr-puG"/>
-                                <exclude reference="tVO-1h-A3z"/>
-                                <exclude reference="6mK-mN-Sbe"/>
-                                <exclude reference="I3E-8z-3RF"/>
-                                <exclude reference="JPw-vZ-WWt"/>
-                                <exclude reference="Q3C-6D-uF3"/>
-                                <exclude reference="U0q-di-60C"/>
-                                <exclude reference="Yq3-N5-eF9"/>
-                                <exclude reference="oyx-t2-9oD"/>
-                                <exclude reference="q28-cX-BbI"/>
-                                <exclude reference="rP7-pQ-XyS"/>
-                                <exclude reference="rxS-jq-f2x"/>
-                                <exclude reference="s9g-aH-X2w"/>
-                                <exclude reference="xEq-CS-JvP"/>
-                                <exclude reference="Iee-OR-Aij"/>
-                                <exclude reference="J2l-6z-ALa"/>
-                                <exclude reference="PRS-DD-X0S"/>
-                                <exclude reference="Sdi-qL-cab"/>
-                                <exclude reference="e7I-Ou-jW3"/>
-                                <exclude reference="g2J-47-MKC"/>
-                                <exclude reference="kD1-dn-NA9"/>
-                                <exclude reference="lO9-tv-9ST"/>
-                                <exclude reference="2iZ-xM-1Pz"/>
-                                <exclude reference="2se-Wp-UcH"/>
-                                <exclude reference="DQI-zy-qwj"/>
-                                <exclude reference="EyO-hg-MIA"/>
-                                <exclude reference="LcQ-6K-y19"/>
-                                <exclude reference="Zwm-cY-8gq"/>
-                                <exclude reference="bQY-wq-5oP"/>
-                                <exclude reference="cX0-jM-3G2"/>
-                                <exclude reference="emn-Kz-jSh"/>
-                                <exclude reference="ppH-Vj-Jjt"/>
-                                <exclude reference="2vo-vs-Csz"/>
-                                <exclude reference="9AR-co-6LH"/>
-                                <exclude reference="Qhm-tS-kah"/>
-                                <exclude reference="fOI-rR-SIi"/>
-                                <exclude reference="fk5-os-oaG"/>
-                                <exclude reference="fyI-4n-hQb"/>
-                                <exclude reference="iIB-gb-ose"/>
-                                <exclude reference="kCz-1R-wn1"/>
-                                <exclude reference="sUT-ed-6qL"/>
-                                <exclude reference="wRc-5a-rHP"/>
-                                <exclude reference="Anl-DN-y5S"/>
-                                <exclude reference="P9g-PR-F4g"/>
-                                <exclude reference="Q0Q-xq-Ads"/>
-                                <exclude reference="ghK-Tb-Pwr"/>
-                                <exclude reference="wiG-Wp-cqX"/>
-                                <exclude reference="xez-zI-tpD"/>
+                                <exclude reference="g3z-cg-277"/>
+                                <exclude reference="MLg-Kq-ZEy"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="subviews">
-                                <include reference="G8D-pK-IcW"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="AMC-cM-AT4"/>
-                                <include reference="7Co-g7-QCo"/>
-                                <include reference="HrT-Mj-svT"/>
-                                <exclude reference="oGb-QX-sKN"/>
-                                <include reference="q28-cX-BbI"/>
-                                <include reference="rP7-pQ-XyS"/>
-                                <include reference="xEq-CS-JvP"/>
-                                <include reference="J2l-6z-ALa"/>
-                                <include reference="e7I-Ou-jW3"/>
-                                <exclude reference="lO9-tv-9ST"/>
-                                <include reference="2iZ-xM-1Pz"/>
-                                <include reference="Zwm-cY-8gq"/>
-                                <include reference="ppH-Vj-Jjt"/>
-                                <include reference="9AR-co-6LH"/>
-                                <include reference="Qhm-tS-kah"/>
-                                <exclude reference="iIB-gb-ose"/>
-                                <exclude reference="kCz-1R-wn1"/>
-                                <exclude reference="sUT-ed-6qL"/>
-                                <exclude reference="Q0Q-xq-Ads"/>
-                                <include reference="ghK-Tb-Pwr"/>
-                                <exclude reference="xez-zI-tpD"/>
+                                <exclude reference="G8D-pK-IcW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="G8D-pK-IcW"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="urH-qN-y1F"/>
-                                <include reference="kl1-HG-kgU"/>
-                                <include reference="tVO-1h-A3z"/>
-                                <include reference="6mK-mN-Sbe"/>
-                                <include reference="I3E-8z-3RF"/>
-                                <include reference="oyx-t2-9oD"/>
-                                <exclude reference="Iee-OR-Aij"/>
-                                <include reference="Sdi-qL-cab"/>
-                                <include reference="g2J-47-MKC"/>
-                                <include reference="DQI-zy-qwj"/>
-                                <include reference="EyO-hg-MIA"/>
-                                <include reference="bQY-wq-5oP"/>
-                                <include reference="fk5-os-oaG"/>
-                                <include reference="fyI-4n-hQb"/>
-                                <include reference="P9g-PR-F4g"/>
+                                <exclude reference="E0N-4v-7Fx"/>
+                                <exclude reference="Bza-4e-pNv"/>
+                                <exclude reference="1gC-bb-0xU"/>
+                                <exclude reference="m2M-tL-qwh"/>
+                                <exclude reference="lFH-j1-KXD"/>
+                                <exclude reference="wMJ-pT-cRP"/>
+                                <exclude reference="EZR-5F-mfm"/>
+                                <exclude reference="Scf-kB-bOX"/>
+                                <exclude reference="IJz-ta-pFV"/>
+                                <exclude reference="G8D-pK-IcW"/>
+                                <exclude reference="g3z-cg-277"/>
+                                <exclude reference="MLg-Kq-ZEy"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
-                                <include reference="soB-LC-eDt"/>
-                                <include reference="G8D-pK-IcW"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="qz4-oB-yga"/>
-                                <exclude reference="1av-ps-wuI"/>
-                                <include reference="4AG-OT-Vfc"/>
-                                <include reference="D0P-Zw-cQ9"/>
-                                <exclude reference="GY9-Al-rCN"/>
-                                <exclude reference="YUM-7c-DXJ"/>
-                                <include reference="ZOG-G1-CdF"/>
-                                <include reference="m1H-8w-e5q"/>
-                                <include reference="sqQ-fr-puG"/>
-                                <include reference="JPw-vZ-WWt"/>
-                                <include reference="Q3C-6D-uF3"/>
-                                <exclude reference="U0q-di-60C"/>
-                                <include reference="Yq3-N5-eF9"/>
-                                <exclude reference="rxS-jq-f2x"/>
-                                <exclude reference="s9g-aH-X2w"/>
-                                <include reference="PRS-DD-X0S"/>
-                                <include reference="kD1-dn-NA9"/>
-                                <exclude reference="2se-Wp-UcH"/>
-                                <include reference="LcQ-6K-y19"/>
-                                <include reference="cX0-jM-3G2"/>
-                                <include reference="emn-Kz-jSh"/>
-                                <include reference="2vo-vs-Csz"/>
-                                <include reference="fOI-rR-SIi"/>
-                                <include reference="wRc-5a-rHP"/>
-                                <include reference="Anl-DN-y5S"/>
-                                <exclude reference="wiG-Wp-cqX"/>
+                                <exclude reference="soB-LC-eDt"/>
+                                <exclude reference="G8D-pK-IcW"/>
                             </mask>
                         </variation>
                     </view>
@@ -1434,7 +866,9 @@
                                             <constraint firstItem="up0-IG-Ek5" firstAttribute="top" secondItem="myt-fH-6Li" secondAttribute="bottom" constant="15" id="VU7-JE-eSh"/>
                                             <constraint firstItem="ETf-tu-uDF" firstAttribute="top" secondItem="cTV-jc-p1w" secondAttribute="bottom" constant="15" id="Vj7-PX-T2W"/>
                                             <constraint firstAttribute="height" constant="1627" id="W0g-Ls-JI2"/>
-                                            <constraint firstAttribute="height" constant="1427" id="YlT-Ek-jjH"/>
+                                            <constraint firstAttribute="height" constant="1427" id="YlT-Ek-jjH">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="1627"/>
+                                            </constraint>
                                             <constraint firstItem="muH-hs-fo0" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="aBy-NC-S0R"/>
                                             <constraint firstItem="myt-fH-6Li" firstAttribute="top" secondItem="muH-hs-fo0" secondAttribute="bottom" constant="8" id="aRR-a3-Ly6"/>
                                             <constraint firstItem="ETf-tu-uDF" firstAttribute="centerX" secondItem="owg-mH-9bp" secondAttribute="centerX" id="aao-eA-wKq"/>
@@ -1577,8 +1011,7 @@
                                                 <include reference="fP1-pq-7ki"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="-8" width="600" height="1427"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="subviews">
                                                 <include reference="vg3-ir-y3Q"/>
                                                 <include reference="cTV-jc-p1w"/>
