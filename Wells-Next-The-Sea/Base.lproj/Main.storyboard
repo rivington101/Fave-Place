@@ -17,11 +17,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbour" translatesAutoresizingMaskIntoConstraints="NO" id="ODL-33-t8X">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="1700"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELLS-NEXT-THE-SEA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yft-lg-3C9">
                                 <rect key="frame" x="151" y="8" width="298" height="46"/>
@@ -258,6 +258,9 @@
                                     <constraint firstAttribute="width" constant="50" id="NEh-As-55R"/>
                                 </constraints>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="KFU-6h-eMP" kind="show" id="Ajp-SC-lR3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFv-BP-4ju" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                 <rect key="frame" x="370" y="28" width="50" height="30"/>
@@ -314,7 +317,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="g6d-ZM-pVu" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6d-ZM-pVu" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="268" id="56K-pO-ad8"/>
@@ -396,14 +399,6 @@
                                 <exclude reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3km-pM-hxl"/>
-                                <exclude reference="Chn-bM-RTx"/>
-                                <exclude reference="F7F-tG-BMI"/>
-                                <exclude reference="J9j-IR-JP6"/>
-                                <exclude reference="TA3-Yj-3PG"/>
-                                <exclude reference="YDR-Pe-bFq"/>
-                                <exclude reference="YnV-xs-zbH"/>
-                                <exclude reference="ewu-pX-XST"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <exclude reference="DZw-nm-nDW"/>
@@ -417,6 +412,14 @@
                                 <exclude reference="jnO-vo-VZW"/>
                                 <exclude reference="lFV-7k-sLW"/>
                                 <exclude reference="qZE-bR-lXf"/>
+                                <exclude reference="3km-pM-hxl"/>
+                                <exclude reference="Chn-bM-RTx"/>
+                                <exclude reference="F7F-tG-BMI"/>
+                                <exclude reference="J9j-IR-JP6"/>
+                                <exclude reference="TA3-Yj-3PG"/>
+                                <exclude reference="YDR-Pe-bFq"/>
+                                <exclude reference="YnV-xs-zbH"/>
+                                <exclude reference="ewu-pX-XST"/>
                                 <exclude reference="vxL-Q3-lAb"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
@@ -427,13 +430,13 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Chn-bM-RTx"/>
-                                <include reference="YDR-Pe-bFq"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <include reference="K7L-86-0pD"/>
                                 <include reference="KNw-do-sC2"/>
                                 <exclude reference="XZC-rh-ScX"/>
                                 <include reference="ZvF-vn-dbn"/>
+                                <include reference="Chn-bM-RTx"/>
+                                <include reference="YDR-Pe-bFq"/>
                                 <include reference="vxL-Q3-lAb"/>
                             </mask>
                         </variation>
@@ -443,16 +446,16 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3km-pM-hxl"/>
-                                <include reference="J9j-IR-JP6"/>
-                                <include reference="TA3-Yj-3PG"/>
-                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <include reference="DZw-nm-nDW"/>
                                 <include reference="YZX-RH-bhu"/>
                                 <exclude reference="fbe-VM-PwA"/>
                                 <include reference="lFV-7k-sLW"/>
                                 <exclude reference="qZE-bR-lXf"/>
+                                <include reference="3km-pM-hxl"/>
+                                <include reference="J9j-IR-JP6"/>
+                                <include reference="TA3-Yj-3PG"/>
+                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
                         </variation>
@@ -462,10 +465,10 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="F7F-tG-BMI"/>
-                                <include reference="YnV-xs-zbH"/>
                                 <include reference="Uzo-1S-xJb"/>
                                 <include reference="jnO-vo-VZW"/>
+                                <include reference="F7F-tG-BMI"/>
+                                <include reference="YnV-xs-zbH"/>
                             </mask>
                         </variation>
                     </view>
@@ -473,6 +476,145 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4h-2e-1y4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="234" y="1671"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AeB-gy-F5G">
+            <objects>
+                <viewController id="KFU-6h-eMP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c1C-BX-cfD"/>
+                        <viewControllerLayoutGuide type="bottom" id="xqd-Rd-Ru3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cnq-Yq-OyY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-T0-Zb8" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="275" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="POT-od-3cn"/>
+                                    <constraint firstAttribute="width" constant="50" id="wgK-bV-Qae"/>
+                                </constraints>
+                                <state key="normal" title="NEXT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMB-i2-MSA" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="370" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gbp-HT-u6W"/>
+                                    <constraint firstAttribute="width" constant="50" id="nog-sV-nWQ"/>
+                                </constraints>
+                                <state key="normal" title="HOME"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3fL-XN-IpJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKs-G6-Zvm" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="180" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="IxO-GP-UO4"/>
+                                    <constraint firstAttribute="height" constant="30" id="qLJ-Sg-Kcv"/>
+                                </constraints>
+                                <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="6sh-nS-mW8" kind="show" id="5Be-a8-iOo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3374" translatesAutoresizingMaskIntoConstraints="NO" id="32m-Fu-uU1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="203" id="QeZ-SB-JcT"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QeZ-SB-JcT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="QeZ-SB-JcT"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hep-zM-Ybj" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="zwc-3T-pfA">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="200"/>
+                                    </constraint>
+                                </constraints>
+                                <mutableString key="text">HISTORY
+Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name. It was known as Wells-next-the-Sea in the early 1800's but with the coming of the railway in 1857 the name 'Wells-on-Sea' seems to have been used. The town council made the decision in 1956 that the name 'Wells-next-the-Sea' be adopted, and this has been used since then.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zwc-3T-pfA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="zwc-3T-pfA"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xMB-i2-MSA" firstAttribute="top" secondItem="c1C-BX-cfD" secondAttribute="bottom" constant="8" id="DVt-1f-4kv"/>
+                            <constraint firstItem="Hep-zM-Ybj" firstAttribute="leading" secondItem="cnq-Yq-OyY" secondAttribute="leadingMargin" id="FXt-J0-QM1"/>
+                            <constraint firstItem="xMB-i2-MSA" firstAttribute="leading" secondItem="q1r-T0-Zb8" secondAttribute="trailing" constant="45" id="KDT-Xe-sNf"/>
+                            <constraint firstItem="Hep-zM-Ybj" firstAttribute="top" secondItem="rKs-G6-Zvm" secondAttribute="bottom" constant="8" id="Ppa-ZI-Bla"/>
+                            <constraint firstItem="Hep-zM-Ybj" firstAttribute="top" secondItem="32m-Fu-uU1" secondAttribute="bottom" constant="8" id="SOS-Eo-UG2"/>
+                            <constraint firstAttribute="trailing" secondItem="32m-Fu-uU1" secondAttribute="trailing" id="VDL-UY-7Jq"/>
+                            <constraint firstItem="q1r-T0-Zb8" firstAttribute="top" secondItem="c1C-BX-cfD" secondAttribute="bottom" constant="8" id="VLL-a5-JvI"/>
+                            <constraint firstItem="rKs-G6-Zvm" firstAttribute="top" secondItem="c1C-BX-cfD" secondAttribute="bottom" constant="8" id="eec-wh-MZW"/>
+                            <constraint firstItem="q1r-T0-Zb8" firstAttribute="centerX" secondItem="cnq-Yq-OyY" secondAttribute="centerX" id="fv5-fd-Bgb"/>
+                            <constraint firstItem="Hep-zM-Ybj" firstAttribute="trailing" secondItem="cnq-Yq-OyY" secondAttribute="trailingMargin" id="hlR-2W-Whx"/>
+                            <constraint firstItem="xqd-Rd-Ru3" firstAttribute="top" secondItem="Hep-zM-Ybj" secondAttribute="bottom" constant="8" id="iXb-5A-mXL"/>
+                            <constraint firstItem="32m-Fu-uU1" firstAttribute="leading" secondItem="cnq-Yq-OyY" secondAttribute="leading" id="kCg-0U-bsS"/>
+                            <constraint firstItem="32m-Fu-uU1" firstAttribute="top" secondItem="rKs-G6-Zvm" secondAttribute="bottom" constant="8" id="q92-JD-kMX"/>
+                            <constraint firstItem="q1r-T0-Zb8" firstAttribute="leading" secondItem="rKs-G6-Zvm" secondAttribute="trailing" constant="45" id="sh8-kR-fc3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="32m-Fu-uU1"/>
+                                <exclude reference="Hep-zM-Ybj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="VDL-UY-7Jq"/>
+                                <exclude reference="kCg-0U-bsS"/>
+                                <exclude reference="q92-JD-kMX"/>
+                                <exclude reference="FXt-J0-QM1"/>
+                                <exclude reference="Ppa-ZI-Bla"/>
+                                <exclude reference="SOS-Eo-UG2"/>
+                                <exclude reference="hlR-2W-Whx"/>
+                                <exclude reference="iXb-5A-mXL"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="32m-Fu-uU1"/>
+                                <include reference="Hep-zM-Ybj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="VDL-UY-7Jq"/>
+                                <include reference="kCg-0U-bsS"/>
+                                <include reference="q92-JD-kMX"/>
+                                <include reference="FXt-J0-QM1"/>
+                                <exclude reference="Ppa-ZI-Bla"/>
+                                <include reference="SOS-Eo-UG2"/>
+                                <include reference="hlR-2W-Whx"/>
+                                <include reference="iXb-5A-mXL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrz-kj-mGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="2251.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mNi-Sr-sW1">
@@ -1206,6 +1348,7 @@
     <resources>
         <image name="IMGP0571" width="2560" height="1920"/>
         <image name="IMG_1844" width="4000" height="3000"/>
+        <image name="IMG_3374" width="3043" height="2282"/>
         <image name="harbour" width="400" height="300"/>
         <image name="holkham-hall1" width="2240" height="1680"/>
         <image name="horses" width="3008" height="2000"/>
@@ -1213,6 +1356,7 @@
         <image name="wells-next-the-sea-beach-huts" width="1000" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nCM-Rw-bq5"/>
+        <segue reference="3fL-XN-IpJ"/>
+        <segue reference="5Be-a8-iOo"/>
     </inferredMetricsTieBreakers>
 </document>
