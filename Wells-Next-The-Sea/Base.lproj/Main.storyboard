@@ -305,7 +305,8 @@
                                         <include reference="UWJ-s8-B5K"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="79" width="600" height="240"/>
                                     <mask key="constraints">
                                         <exclude reference="hPj-we-KMQ"/>
                                     </mask>
@@ -347,7 +348,8 @@
                                         <include reference="dd7-bV-ku8"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="327" width="560" height="183"/>
                                     <mask key="constraints">
                                         <include reference="kKM-DH-3YF"/>
                                         <include reference="yZy-oc-Ror"/>
@@ -542,8 +544,8 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="200"/>
                                     </constraint>
                                 </constraints>
-                                <mutableString key="text">HISTORY
-Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name. It was known as Wells-next-the-Sea in the early 1800's but with the coming of the railway in 1857 the name 'Wells-on-Sea' seems to have been used. The town council made the decision in 1956 that the name 'Wells-next-the-Sea' be adopted, and this has been used since then.</mutableString>
+                                <string key="text">HISTORY
+Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open water. In Tudor times, when it enjoyed much easier access to the sea, it was one of the great ports of eastern England.  The name of Wells derives from the old word 'welles' meaning a clear spring of which Wells used to have many, rising through the sand and wells in the area. The addition of 'next-the-Sea' was to distinguish the town from other places in Norfolk of the same name. It was known as Wells-next-the-Sea in the early 1800's but with the coming of the railway in 1857 the name 'Wells-on-Sea' seems to have been used. The town council made the decision in 1956 that the name 'Wells-next-the-Sea' be adopted, and this has been used since then.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -582,13 +584,13 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <exclude reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="VDL-UY-7Jq"/>
-                                <exclude reference="kCg-0U-bsS"/>
-                                <exclude reference="q92-JD-kMX"/>
                                 <exclude reference="FXt-J0-QM1"/>
                                 <exclude reference="Ppa-ZI-Bla"/>
                                 <exclude reference="SOS-Eo-UG2"/>
                                 <exclude reference="hlR-2W-Whx"/>
+                                <exclude reference="VDL-UY-7Jq"/>
+                                <exclude reference="kCg-0U-bsS"/>
+                                <exclude reference="q92-JD-kMX"/>
                                 <exclude reference="iXb-5A-mXL"/>
                             </mask>
                         </variation>
@@ -598,13 +600,13 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <include reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="VDL-UY-7Jq"/>
-                                <include reference="kCg-0U-bsS"/>
-                                <include reference="q92-JD-kMX"/>
                                 <include reference="FXt-J0-QM1"/>
                                 <exclude reference="Ppa-ZI-Bla"/>
                                 <include reference="SOS-Eo-UG2"/>
                                 <include reference="hlR-2W-Whx"/>
+                                <include reference="VDL-UY-7Jq"/>
+                                <include reference="kCg-0U-bsS"/>
+                                <include reference="q92-JD-kMX"/>
                                 <include reference="iXb-5A-mXL"/>
                             </mask>
                         </variation>
