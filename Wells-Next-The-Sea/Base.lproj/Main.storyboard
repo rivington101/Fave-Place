@@ -496,6 +496,9 @@
                                     <constraint firstAttribute="width" constant="50" id="wgK-bV-Qae"/>
                                 </constraints>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="6yp-HR-Hl3" kind="show" id="25R-us-cx6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMB-i2-MSA" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
                                 <rect key="frame" x="370" y="28" width="50" height="30"/>
@@ -654,6 +657,18 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <exclude reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="1te-ax-CEO"/>
+                                <exclude reference="4wK-vp-Wmr"/>
+                                <exclude reference="Fvn-dX-2BW"/>
+                                <exclude reference="J67-j3-k95"/>
+                                <exclude reference="Jek-Wr-1Rc"/>
+                                <exclude reference="KqA-VZ-zk4"/>
+                                <exclude reference="Ppa-ZI-Bla"/>
+                                <exclude reference="dAe-pc-70R"/>
+                                <exclude reference="dyt-sP-TpF"/>
+                                <exclude reference="nQl-40-tSq"/>
+                                <exclude reference="nfc-ux-Q3P"/>
+                                <exclude reference="tyI-xP-VDl"/>
                                 <exclude reference="Vid-rm-v93"/>
                                 <exclude reference="tg7-n8-lrP"/>
                                 <exclude reference="2st-Xd-Aut"/>
@@ -669,18 +684,6 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <exclude reference="w23-Vx-7QK"/>
                                 <exclude reference="wBE-9z-YDH"/>
                                 <exclude reference="eKJ-XR-cxz"/>
-                                <exclude reference="1te-ax-CEO"/>
-                                <exclude reference="4wK-vp-Wmr"/>
-                                <exclude reference="Fvn-dX-2BW"/>
-                                <exclude reference="J67-j3-k95"/>
-                                <exclude reference="Jek-Wr-1Rc"/>
-                                <exclude reference="KqA-VZ-zk4"/>
-                                <exclude reference="Ppa-ZI-Bla"/>
-                                <exclude reference="dAe-pc-70R"/>
-                                <exclude reference="dyt-sP-TpF"/>
-                                <exclude reference="nQl-40-tSq"/>
-                                <exclude reference="nfc-ux-Q3P"/>
-                                <exclude reference="tyI-xP-VDl"/>
                                 <exclude reference="TGe-CF-4g2"/>
                                 <exclude reference="0Mz-r9-VRN"/>
                                 <exclude reference="B4J-Ib-iKc"/>
@@ -694,15 +697,15 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <include reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5ty-CP-Gd8"/>
-                                <exclude reference="95P-4Z-hQ2"/>
-                                <include reference="Qwr-n1-Alr"/>
-                                <include reference="w23-Vx-7QK"/>
                                 <exclude reference="1te-ax-CEO"/>
                                 <include reference="J67-j3-k95"/>
                                 <include reference="dAe-pc-70R"/>
                                 <exclude reference="nfc-ux-Q3P"/>
                                 <include reference="tyI-xP-VDl"/>
+                                <include reference="5ty-CP-Gd8"/>
+                                <exclude reference="95P-4Z-hQ2"/>
+                                <include reference="Qwr-n1-Alr"/>
+                                <include reference="w23-Vx-7QK"/>
                                 <include reference="0Mz-r9-VRN"/>
                                 <include reference="H1g-TY-XAI"/>
                             </mask>
@@ -713,16 +716,16 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <include reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="4wK-vp-Wmr"/>
+                                <include reference="Fvn-dX-2BW"/>
+                                <include reference="Jek-Wr-1Rc"/>
+                                <exclude reference="Ppa-ZI-Bla"/>
                                 <include reference="ANo-P3-hPv"/>
                                 <include reference="Ba3-5h-ZXI"/>
                                 <include reference="HhP-65-Jkc"/>
                                 <include reference="O9u-YU-RHA"/>
                                 <exclude reference="n68-ki-PTM"/>
                                 <exclude reference="wBE-9z-YDH"/>
-                                <include reference="4wK-vp-Wmr"/>
-                                <include reference="Fvn-dX-2BW"/>
-                                <include reference="Jek-Wr-1Rc"/>
-                                <exclude reference="Ppa-ZI-Bla"/>
                                 <include reference="B4J-Ib-iKc"/>
                             </mask>
                         </variation>
@@ -733,14 +736,14 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <include reference="Hep-zM-Ybj"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="KqA-VZ-zk4"/>
+                                <include reference="dyt-sP-TpF"/>
+                                <include reference="nQl-40-tSq"/>
                                 <include reference="Vid-rm-v93"/>
                                 <exclude reference="tg7-n8-lrP"/>
                                 <include reference="2st-Xd-Aut"/>
                                 <exclude reference="8ny-xR-G2H"/>
                                 <include reference="eKJ-XR-cxz"/>
-                                <include reference="KqA-VZ-zk4"/>
-                                <include reference="dyt-sP-TpF"/>
-                                <include reference="nQl-40-tSq"/>
                                 <include reference="TGe-CF-4g2"/>
                             </mask>
                         </variation>
@@ -751,6 +754,173 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrz-kj-mGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="264" y="2251.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yFb-Oi-H8D">
+            <objects>
+                <viewController id="6yp-HR-Hl3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WeZ-9d-pxN"/>
+                        <viewControllerLayoutGuide type="bottom" id="7NS-1n-Q7M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pLB-js-dAy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SS-Ka-cJY" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="275" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2b1-LT-5yj"/>
+                                    <constraint firstAttribute="height" constant="30" id="pzf-SW-njX"/>
+                                </constraints>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="vkl-iH-iLy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYb-5U-fiZ" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="370" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="L2D-hW-kee"/>
+                                    <constraint firstAttribute="width" constant="50" id="rBD-nt-8wc"/>
+                                </constraints>
+                                <state key="normal" title="HOME"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xqB-5n-DrG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v20-bf-GjY" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="180" y="28" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XBA-r8-To9"/>
+                                    <constraint firstAttribute="width" constant="50" id="mXE-ds-daJ"/>
+                                </constraints>
+                                <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="KFU-6h-eMP" kind="show" id="WFg-5t-ggq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1957" translatesAutoresizingMaskIntoConstraints="NO" id="tOi-Yg-oP1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHw-bV-GZI" customClass="LabelText" customModule="Wells_Next_The_Sea" customModuleProvider="target">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="Jfo-Um-Luv"/>
+                                </constraints>
+                                <string key="text">THINGS TO DO
+Coastal Walks - Beautiful Beaches - Boat Trips
+Lovely Country Pubs - Fine Restaurants
+Sandringham House, Gardens &amp; Museum, HRH The Queen’s Norfolk Residence
+Holkham Hall, House, Gardens, Pub And Access To The Seemingly Never Ending Beach
+Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Jfo-Um-Luv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Jfo-Um-Luv"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7NS-1n-Q7M" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="20" id="602-fg-j6a"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="9mg-rq-BIW"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" id="9rX-bp-OWD"/>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="FHF-yk-1Pr"/>
+                            <constraint firstItem="PYb-5U-fiZ" firstAttribute="top" secondItem="WeZ-9d-pxN" secondAttribute="bottom" constant="8" id="Hdb-YD-RNo"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="top" secondItem="PYb-5U-fiZ" secondAttribute="bottom" constant="20" id="L0F-Qm-tu8"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="YMm-fV-Mwz"/>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="width" secondItem="pLB-js-dAy" secondAttribute="width" multiplier="1:2" id="Zb2-i0-DfL">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
+                            </constraint>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="height" secondItem="pLB-js-dAy" secondAttribute="height" multiplier="1:2" id="aTk-TW-8z8">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-50"/>
+                            </constraint>
+                            <constraint firstItem="8SS-Ka-cJY" firstAttribute="leading" secondItem="v20-bf-GjY" secondAttribute="trailing" constant="45" id="ahn-Zs-SSe"/>
+                            <constraint firstItem="8SS-Ka-cJY" firstAttribute="top" secondItem="WeZ-9d-pxN" secondAttribute="bottom" constant="8" id="dOR-Bz-Bbg"/>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" id="dUB-jB-g1Q"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="leading" secondItem="tOi-Yg-oP1" secondAttribute="trailing" constant="55" id="gUZ-Bk-RBe">
+                                <variation key="heightClass=compact-widthClass=compact" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="top" secondItem="v20-bf-GjY" secondAttribute="bottom" constant="13" id="kLg-bK-uXt"/>
+                            <constraint firstItem="8SS-Ka-cJY" firstAttribute="centerX" secondItem="pLB-js-dAy" secondAttribute="centerX" id="oGY-Rr-uMp"/>
+                            <constraint firstItem="PYb-5U-fiZ" firstAttribute="leading" secondItem="8SS-Ka-cJY" secondAttribute="trailing" constant="45" id="pAz-R6-jDl"/>
+                            <constraint firstItem="7NS-1n-Q7M" firstAttribute="top" secondItem="tOi-Yg-oP1" secondAttribute="bottom" constant="20" id="qVK-Tx-SwM"/>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" id="raU-jN-adi"/>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="top" secondItem="v20-bf-GjY" secondAttribute="bottom" constant="20" id="s7Z-P3-i2M"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="top" secondItem="tOi-Yg-oP1" secondAttribute="bottom" constant="8" id="sWT-rm-9QH"/>
+                            <constraint firstItem="v20-bf-GjY" firstAttribute="top" secondItem="WeZ-9d-pxN" secondAttribute="bottom" constant="8" id="ySI-5h-onk"/>
+                            <constraint firstItem="7NS-1n-Q7M" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="20" id="ziS-EE-2mD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="tOi-Yg-oP1"/>
+                                <exclude reference="pHw-bV-GZI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FHF-yk-1Pr"/>
+                                <exclude reference="Zb2-i0-DfL"/>
+                                <exclude reference="aTk-TW-8z8"/>
+                                <exclude reference="dUB-jB-g1Q"/>
+                                <exclude reference="kLg-bK-uXt"/>
+                                <exclude reference="raU-jN-adi"/>
+                                <exclude reference="s7Z-P3-i2M"/>
+                                <exclude reference="9mg-rq-BIW"/>
+                                <exclude reference="9rX-bp-OWD"/>
+                                <exclude reference="L0F-Qm-tu8"/>
+                                <exclude reference="YMm-fV-Mwz"/>
+                                <exclude reference="gUZ-Bk-RBe"/>
+                                <exclude reference="sWT-rm-9QH"/>
+                                <exclude reference="602-fg-j6a"/>
+                                <exclude reference="qVK-Tx-SwM"/>
+                                <exclude reference="ziS-EE-2mD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="tOi-Yg-oP1"/>
+                                <include reference="pHw-bV-GZI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Zb2-i0-DfL"/>
+                                <include reference="raU-jN-adi"/>
+                                <include reference="s7Z-P3-i2M"/>
+                                <include reference="L0F-Qm-tu8"/>
+                                <include reference="YMm-fV-Mwz"/>
+                                <include reference="gUZ-Bk-RBe"/>
+                                <include reference="602-fg-j6a"/>
+                                <include reference="qVK-Tx-SwM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="tOi-Yg-oP1"/>
+                                <include reference="pHw-bV-GZI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FHF-yk-1Pr"/>
+                                <include reference="aTk-TW-8z8"/>
+                                <include reference="dUB-jB-g1Q"/>
+                                <include reference="kLg-bK-uXt"/>
+                                <include reference="9mg-rq-BIW"/>
+                                <include reference="9rX-bp-OWD"/>
+                                <include reference="sWT-rm-9QH"/>
+                                <include reference="ziS-EE-2mD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ock-7q-JJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="3060"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mNi-Sr-sW1">
@@ -1484,6 +1654,7 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
     <resources>
         <image name="IMGP0571" width="2560" height="1920"/>
         <image name="IMG_1844" width="4000" height="3000"/>
+        <image name="IMG_1957" width="3261" height="2174"/>
         <image name="IMG_3374" width="3043" height="2282"/>
         <image name="Wells June 2003 008" width="2272" height="1704"/>
         <image name="harbour" width="400" height="300"/>
@@ -1494,6 +1665,7 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5Be-a8-iOo"/>
-        <segue reference="nCM-Rw-bq5"/>
+        <segue reference="WFg-5t-ggq"/>
+        <segue reference="xqB-5n-DrG"/>
     </inferredMetricsTieBreakers>
 </document>
