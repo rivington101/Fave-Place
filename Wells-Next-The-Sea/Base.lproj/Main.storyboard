@@ -248,11 +248,11 @@
                         <viewControllerLayoutGuide type="bottom" id="gUE-zq-t4s"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EhC-qq-VQh">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFv-BP-4ju" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="370" y="28" width="50" height="30"/>
+                                <rect key="frame" x="470" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="DZb-TE-Usa"/>
                                     <constraint firstAttribute="height" constant="30" id="END-xL-w02"/>
@@ -263,7 +263,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AY-xZ-oSw" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="180" y="28" width="50" height="30"/>
+                                <rect key="frame" x="280" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="nmu-Dz-nns"/>
                                     <constraint firstAttribute="height" constant="30" id="zob-2j-mPQ"/>
@@ -343,10 +343,8 @@
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="189" id="Nai-WQ-pHY"/>
-                                    <constraint firstAttribute="height" constant="159" id="XNl-5J-App"/>
                                     <constraint firstAttribute="height" constant="157" id="dd7-bV-ku8"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="183" id="kKM-DH-3YF"/>
-                                    <constraint firstAttribute="width" constant="707" id="vM6-lj-LoI"/>
                                     <constraint firstAttribute="height" constant="183" id="yZy-oc-Ror"/>
                                 </constraints>
                                 <string key="text">Wells Next The Sea is a traditional fishing port and holiday town on the beautiful north coast of the county of Norfolk in the UK.  It is one of the most attractive towns on the north Norfolk coast. It features many narrow lanes nicely sheltered from the offshore winds and makes a very good base for exploring the surrounding coastline and countryside.</string>
@@ -356,10 +354,8 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="Nai-WQ-pHY"/>
-                                        <exclude reference="XNl-5J-App"/>
                                         <exclude reference="dd7-bV-ku8"/>
                                         <exclude reference="kKM-DH-3YF"/>
-                                        <exclude reference="vM6-lj-LoI"/>
                                         <exclude reference="yZy-oc-Ror"/>
                                     </mask>
                                 </variation>
@@ -375,15 +371,9 @@
                                         <include reference="yZy-oc-Ror"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="XNl-5J-App"/>
-                                        <include reference="vM6-lj-LoI"/>
-                                    </mask>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOC-6u-OBn" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="275" y="28" width="50" height="30"/>
+                                <rect key="frame" x="375" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="IvU-zs-mFi"/>
                                     <constraint firstAttribute="width" constant="50" id="NEh-As-55R"/>
@@ -452,40 +442,43 @@
                             <constraint firstAttribute="trailing" secondItem="E3U-Hn-V54" secondAttribute="trailing" id="3km-pM-hxl"/>
                             <constraint firstItem="XFv-BP-4ju" firstAttribute="top" secondItem="HM7-Gd-gqG" secondAttribute="bottom" constant="8" id="7FK-rw-kEU"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="E3U-Hn-V54" secondAttribute="trailing" id="9YQ-12-WTj"/>
+                            <constraint firstItem="UtM-aE-wmZ" firstAttribute="top" secondItem="g6d-ZM-pVu" secondAttribute="bottom" constant="25" id="Adz-3K-atA"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leadingMargin" id="B5N-JI-6IP"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leadingMargin" constant="28" id="CMg-Dl-RWp">
                                 <variation key="heightClass=regular-widthClass=regular" constant="25"/>
                             </constraint>
                             <constraint firstItem="E3U-Hn-V54" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leading" id="Chn-bM-RTx"/>
-                            <constraint firstItem="UtM-aE-wmZ" firstAttribute="top" secondItem="g6d-ZM-pVu" secondAttribute="bottom" constant="39" id="Cta-Ef-vFI">
-                                <variation key="heightClass=regular-widthClass=regular" constant="38"/>
-                            </constraint>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="E3U-Hn-V54" secondAttribute="bottom" constant="8" id="DZw-nm-nDW"/>
+                            <constraint firstItem="BUG-O0-Nd9" firstAttribute="top" secondItem="g6d-ZM-pVu" secondAttribute="bottom" constant="25" id="FoY-e0-xOV"/>
                             <constraint firstItem="3AY-xZ-oSw" firstAttribute="trailing" secondItem="E3U-Hn-V54" secondAttribute="trailing" id="Fwc-er-G3S"/>
                             <constraint firstItem="E3U-Hn-V54" firstAttribute="top" secondItem="3AY-xZ-oSw" secondAttribute="bottom" constant="21" id="J9j-IR-JP6"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="E3U-Hn-V54" secondAttribute="trailing" constant="10" id="K7L-86-0pD"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="centerY" secondItem="E3U-Hn-V54" secondAttribute="centerY" id="KNw-do-sC2"/>
+                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leadingMargin" constant="14" id="L2v-so-sYd"/>
                             <constraint firstItem="bOC-6u-OBn" firstAttribute="leading" secondItem="3AY-xZ-oSw" secondAttribute="trailing" constant="45" id="Qh6-xF-3dV"/>
+                            <constraint firstItem="PXL-Rh-XGB" firstAttribute="top" secondItem="XFv-BP-4ju" secondAttribute="bottom" constant="50" id="SpR-ok-7yL">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstItem="E3U-Hn-V54" firstAttribute="height" secondItem="EhC-qq-VQh" secondAttribute="height" multiplier="2:5" id="TA3-Yj-3PG"/>
-                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="centerY" secondItem="EhC-qq-VQh" secondAttribute="centerY" id="U4m-29-rkv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g6d-ZM-pVu" secondAttribute="trailing" constant="25" id="VYN-ar-Klx"/>
+                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="PXL-Rh-XGB" secondAttribute="bottom" constant="25" id="XHh-Hf-kHW"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="XFv-BP-4ju" secondAttribute="bottom" constant="13" id="XZC-rh-ScX"/>
                             <constraint firstItem="E3U-Hn-V54" firstAttribute="top" secondItem="3AY-xZ-oSw" secondAttribute="bottom" constant="13" id="YDR-Pe-bFq"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leadingMargin" id="YZX-RH-bhu"/>
                             <constraint firstItem="PXL-Rh-XGB" firstAttribute="leading" secondItem="XFv-BP-4ju" secondAttribute="leading" id="Yip-D8-lXy"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="trailing" secondItem="EhC-qq-VQh" secondAttribute="trailingMargin" id="ZvF-vn-dbn"/>
                             <constraint firstItem="BUG-O0-Nd9" firstAttribute="leading" secondItem="PXL-Rh-XGB" secondAttribute="leading" id="al0-TP-ai5"/>
+                            <constraint firstItem="E3U-Hn-V54" firstAttribute="top" secondItem="3AY-xZ-oSw" secondAttribute="bottom" constant="50" id="cCz-Pf-ySp">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstItem="bOC-6u-OBn" firstAttribute="top" secondItem="HM7-Gd-gqG" secondAttribute="bottom" constant="8" id="d8I-3e-X9q"/>
-                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="E3U-Hn-V54" secondAttribute="bottom" constant="38" id="dKn-8u-Pou"/>
                             <constraint firstItem="E3U-Hn-V54" firstAttribute="leading" secondItem="EhC-qq-VQh" secondAttribute="leading" id="ewu-pX-XST"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="trailing" secondItem="EhC-qq-VQh" secondAttribute="trailingMargin" id="fbe-VM-PwA"/>
-                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="PXL-Rh-XGB" secondAttribute="bottom" constant="38" id="gCG-8P-dj2"/>
-                            <constraint firstItem="BUG-O0-Nd9" firstAttribute="top" secondItem="g6d-ZM-pVu" secondAttribute="bottom" constant="38" id="gPY-K5-2kq"/>
                             <constraint firstItem="3AY-xZ-oSw" firstAttribute="top" secondItem="HM7-Gd-gqG" secondAttribute="bottom" constant="8" id="icZ-Si-EJS"/>
                             <constraint firstItem="XFv-BP-4ju" firstAttribute="leading" secondItem="bOC-6u-OBn" secondAttribute="trailing" constant="45" id="j9f-Tf-REc"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="trailing" secondItem="EhC-qq-VQh" secondAttribute="trailingMargin" id="lFV-7k-sLW"/>
-                            <constraint firstItem="g6d-ZM-pVu" firstAttribute="centerX" secondItem="EhC-qq-VQh" secondAttribute="centerX" id="mV7-bR-O5z"/>
                             <constraint firstItem="g6d-ZM-pVu" firstAttribute="top" secondItem="3AY-xZ-oSw" secondAttribute="bottom" constant="340" id="qZE-bR-lXf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g6d-ZM-pVu" secondAttribute="trailing" constant="14" id="qg0-a7-G4Q"/>
                             <constraint firstItem="bOC-6u-OBn" firstAttribute="centerX" secondItem="EhC-qq-VQh" secondAttribute="centerX" id="sbG-Pf-I6L"/>
                             <constraint firstItem="gUE-zq-t4s" firstAttribute="top" secondItem="E3U-Hn-V54" secondAttribute="bottom" id="vxL-Q3-lAb"/>
                             <constraint firstItem="gUE-zq-t4s" firstAttribute="top" secondItem="g6d-ZM-pVu" secondAttribute="bottom" constant="20" id="zx0-Nb-kgw"/>
@@ -499,35 +492,36 @@
                                 <exclude reference="BUG-O0-Nd9"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="3km-pM-hxl"/>
+                                <exclude reference="Chn-bM-RTx"/>
+                                <exclude reference="J9j-IR-JP6"/>
+                                <exclude reference="TA3-Yj-3PG"/>
+                                <exclude reference="YDR-Pe-bFq"/>
+                                <exclude reference="cCz-Pf-ySp"/>
+                                <exclude reference="ewu-pX-XST"/>
+                                <exclude reference="Fwc-er-G3S"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <exclude reference="CMg-Dl-RWp"/>
                                 <exclude reference="DZw-nm-nDW"/>
                                 <exclude reference="K7L-86-0pD"/>
                                 <exclude reference="KNw-do-sC2"/>
-                                <exclude reference="U4m-29-rkv"/>
+                                <exclude reference="L2v-so-sYd"/>
                                 <exclude reference="VYN-ar-Klx"/>
+                                <exclude reference="XHh-Hf-kHW"/>
                                 <exclude reference="XZC-rh-ScX"/>
                                 <exclude reference="YZX-RH-bhu"/>
                                 <exclude reference="ZvF-vn-dbn"/>
-                                <exclude reference="dKn-8u-Pou"/>
                                 <exclude reference="fbe-VM-PwA"/>
-                                <exclude reference="gCG-8P-dj2"/>
                                 <exclude reference="lFV-7k-sLW"/>
-                                <exclude reference="mV7-bR-O5z"/>
                                 <exclude reference="qZE-bR-lXf"/>
-                                <exclude reference="al0-TP-ai5"/>
-                                <exclude reference="gPY-K5-2kq"/>
-                                <exclude reference="3km-pM-hxl"/>
-                                <exclude reference="Chn-bM-RTx"/>
-                                <exclude reference="J9j-IR-JP6"/>
-                                <exclude reference="TA3-Yj-3PG"/>
-                                <exclude reference="YDR-Pe-bFq"/>
-                                <exclude reference="ewu-pX-XST"/>
-                                <exclude reference="Yip-D8-lXy"/>
+                                <exclude reference="qg0-a7-G4Q"/>
                                 <exclude reference="1JR-fh-WJR"/>
-                                <exclude reference="Cta-Ef-vFI"/>
-                                <exclude reference="Fwc-er-G3S"/>
+                                <exclude reference="Adz-3K-atA"/>
+                                <exclude reference="SpR-ok-7yL"/>
+                                <exclude reference="Yip-D8-lXy"/>
+                                <exclude reference="FoY-e0-xOV"/>
+                                <exclude reference="al0-TP-ai5"/>
                                 <exclude reference="vxL-Q3-lAb"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
@@ -538,13 +532,13 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Chn-bM-RTx"/>
+                                <include reference="YDR-Pe-bFq"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <include reference="K7L-86-0pD"/>
                                 <include reference="KNw-do-sC2"/>
                                 <exclude reference="XZC-rh-ScX"/>
                                 <include reference="ZvF-vn-dbn"/>
-                                <include reference="Chn-bM-RTx"/>
-                                <include reference="YDR-Pe-bFq"/>
                                 <include reference="vxL-Q3-lAb"/>
                             </mask>
                         </variation>
@@ -554,16 +548,16 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="3km-pM-hxl"/>
+                                <include reference="J9j-IR-JP6"/>
+                                <include reference="TA3-Yj-3PG"/>
+                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <include reference="DZw-nm-nDW"/>
                                 <include reference="YZX-RH-bhu"/>
                                 <exclude reference="fbe-VM-PwA"/>
                                 <include reference="lFV-7k-sLW"/>
                                 <exclude reference="qZE-bR-lXf"/>
-                                <include reference="3km-pM-hxl"/>
-                                <include reference="J9j-IR-JP6"/>
-                                <include reference="TA3-Yj-3PG"/>
-                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
                         </variation>
@@ -576,23 +570,24 @@
                                 <include reference="BUG-O0-Nd9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CMg-Dl-RWp"/>
-                                <include reference="U4m-29-rkv"/>
-                                <exclude reference="VYN-ar-Klx"/>
-                                <include reference="dKn-8u-Pou"/>
-                                <include reference="gCG-8P-dj2"/>
-                                <include reference="mV7-bR-O5z"/>
-                                <include reference="al0-TP-ai5"/>
-                                <include reference="gPY-K5-2kq"/>
-                                <include reference="Yip-D8-lXy"/>
-                                <include reference="1JR-fh-WJR"/>
-                                <include reference="Cta-Ef-vFI"/>
+                                <include reference="cCz-Pf-ySp"/>
                                 <include reference="Fwc-er-G3S"/>
+                                <exclude reference="CMg-Dl-RWp"/>
+                                <include reference="L2v-so-sYd"/>
+                                <exclude reference="VYN-ar-Klx"/>
+                                <include reference="XHh-Hf-kHW"/>
+                                <include reference="qg0-a7-G4Q"/>
+                                <include reference="1JR-fh-WJR"/>
+                                <include reference="Adz-3K-atA"/>
+                                <include reference="SpR-ok-7yL"/>
+                                <include reference="Yip-D8-lXy"/>
+                                <include reference="FoY-e0-xOV"/>
+                                <include reference="al0-TP-ai5"/>
                             </mask>
                         </variation>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="800"/>
+                    <size key="freeformSize" width="800" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4h-2e-1y4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -646,7 +641,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3374" translatesAutoresizingMaskIntoConstraints="NO" id="SQs-po-YrJ">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="EzV-i0-zsL"/>
+                                    <constraint firstAttribute="width" constant="256" id="EzV-i0-zsL">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="296"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" constant="600" id="JxK-fN-ATm"/>
                                     <constraint firstAttribute="height" constant="320" id="dFd-fh-4wD"/>
                                     <constraint firstAttribute="height" constant="176" id="ttX-xo-5FT"/>
@@ -672,10 +669,12 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wells June 2003 008" translatesAutoresizingMaskIntoConstraints="NO" id="GOB-nf-TUY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wells June 2003 008" translatesAutoresizingMaskIntoConstraints="NO" id="GOB-nf-TUY">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="7HE-VC-518"/>
+                                    <constraint firstAttribute="width" constant="256" id="7HE-VC-518">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="296"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="176" id="dkJ-wZ-yML"/>
                                 </constraints>
                                 <variation key="default">
@@ -727,7 +726,9 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0668" translatesAutoresizingMaskIntoConstraints="NO" id="SBK-Qc-pRX">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="2bk-3G-Kj1"/>
+                                    <constraint firstAttribute="width" constant="256" id="2bk-3G-Kj1">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="296"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="176" id="RTd-Ll-6NC"/>
                                 </constraints>
                                 <variation key="default">
@@ -746,7 +747,9 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3414" translatesAutoresizingMaskIntoConstraints="NO" id="DMr-NL-vIx">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="nSR-YW-Ni8"/>
+                                    <constraint firstAttribute="width" constant="256" id="nSR-YW-Ni8">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="296"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="176" id="xZy-lU-2cb"/>
                                 </constraints>
                                 <variation key="default">
@@ -770,7 +773,9 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                             <constraint firstItem="DMr-NL-vIx" firstAttribute="leading" secondItem="cnq-Yq-OyY" secondAttribute="leadingMargin" constant="-46" id="2f4-Cz-Pqb">
                                 <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="SQs-po-YrJ" firstAttribute="top" secondItem="rKs-G6-Zvm" secondAttribute="bottom" constant="25" id="2st-Xd-Aut"/>
+                            <constraint firstItem="SQs-po-YrJ" firstAttribute="top" secondItem="rKs-G6-Zvm" secondAttribute="bottom" constant="25" id="2st-Xd-Aut">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstItem="Hep-zM-Ybj" firstAttribute="leading" secondItem="cnq-Yq-OyY" secondAttribute="leadingMargin" id="4wK-vp-Wmr"/>
                             <constraint firstItem="SQs-po-YrJ" firstAttribute="width" secondItem="cnq-Yq-OyY" secondAttribute="width" multiplier="1:2" id="5ty-CP-Gd8">
                                 <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
@@ -800,7 +805,9 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="q1r-T0-Zb8" firstAttribute="top" secondItem="c1C-BX-cfD" secondAttribute="bottom" constant="8" id="VLL-a5-JvI"/>
-                            <constraint firstItem="GOB-nf-TUY" firstAttribute="top" secondItem="xMB-i2-MSA" secondAttribute="bottom" constant="25" id="Vid-rm-v93"/>
+                            <constraint firstItem="GOB-nf-TUY" firstAttribute="top" secondItem="xMB-i2-MSA" secondAttribute="bottom" constant="25" id="Vid-rm-v93">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstItem="Hep-zM-Ybj" firstAttribute="trailing" secondItem="cnq-Yq-OyY" secondAttribute="trailingMargin" id="dAe-pc-70R"/>
                             <constraint firstItem="Hep-zM-Ybj" firstAttribute="trailing" secondItem="cnq-Yq-OyY" secondAttribute="trailingMargin" id="dyt-sP-TpF"/>
                             <constraint firstItem="rKs-G6-Zvm" firstAttribute="trailing" secondItem="SQs-po-YrJ" secondAttribute="trailing" id="eKJ-XR-cxz"/>
@@ -949,11 +956,11 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                         <viewControllerLayoutGuide type="bottom" id="7NS-1n-Q7M"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pLB-js-dAy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SS-Ka-cJY" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="275" y="28" width="50" height="30"/>
+                                <rect key="frame" x="375" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="2b1-LT-5yj"/>
                                     <constraint firstAttribute="height" constant="30" id="pzf-SW-njX"/>
@@ -964,7 +971,7 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYb-5U-fiZ" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="370" y="28" width="50" height="30"/>
+                                <rect key="frame" x="470" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="L2D-hW-kee"/>
                                     <constraint firstAttribute="width" constant="50" id="rBD-nt-8wc"/>
@@ -975,7 +982,7 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v20-bf-GjY" customClass="CustomBtn" customModule="Wells_Next_The_Sea" customModuleProvider="target">
-                                <rect key="frame" x="180" y="28" width="50" height="30"/>
+                                <rect key="frame" x="280" y="28" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="XBA-r8-To9"/>
                                     <constraint firstAttribute="width" constant="50" id="mXE-ds-daJ"/>
@@ -997,8 +1004,7 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                         <exclude reference="mJd-5P-Amm"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="-66" y="29" width="296" height="168"/>
+                                <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
                                         <include reference="BUW-ul-gUV"/>
                                         <include reference="mJd-5P-Amm"/>
@@ -1029,29 +1035,7 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                         <exclude reference="Jfo-Um-Luv"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="-34" y="239" width="667" height="122"/>
-                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0587" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-4g-9Xs">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="168" id="VGb-ND-o3p"/>
-                                    <constraint firstAttribute="width" constant="296" id="xCQ-Sf-TFS"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="VGb-ND-o3p"/>
-                                        <exclude reference="xCQ-Sf-TFS"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="VGb-ND-o3p"/>
-                                        <include reference="xCQ-Sf-TFS"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="holkham-hall" translatesAutoresizingMaskIntoConstraints="NO" id="PiZ-8y-ZBG">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
@@ -1090,6 +1074,25 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                     </mask>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0587" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-4g-9Xs">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="VGb-ND-o3p"/>
+                                    <constraint firstAttribute="width" constant="296" id="xCQ-Sf-TFS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VGb-ND-o3p"/>
+                                        <exclude reference="xCQ-Sf-TFS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="VGb-ND-o3p"/>
+                                        <include reference="xCQ-Sf-TFS"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1098,9 +1101,13 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="9mg-rq-BIW"/>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" id="9rX-bp-OWD"/>
                             <constraint firstItem="PiZ-8y-ZBG" firstAttribute="leading" secondItem="PYb-5U-fiZ" secondAttribute="leading" id="A77-v3-bgp"/>
+                            <constraint firstItem="PiZ-8y-ZBG" firstAttribute="top" secondItem="PYb-5U-fiZ" secondAttribute="bottom" constant="100" id="AiC-aT-r35">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstItem="Eud-4g-9Xs" firstAttribute="trailing" secondItem="tOi-Yg-oP1" secondAttribute="trailing" id="BAU-74-MEC"/>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="centerY" secondItem="pLB-js-dAy" secondAttribute="centerY" id="CNz-JS-oof"/>
                             <constraint firstItem="PiZ-8y-ZBG" firstAttribute="top" secondItem="PYb-5U-fiZ" secondAttribute="bottom" constant="35" id="DN5-bE-xOQ"/>
+                            <constraint firstItem="Eud-4g-9Xs" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="25" id="Dxk-s5-LeL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PiZ-8y-ZBG" secondAttribute="trailing" constant="45" id="E9i-Tm-m1Y"/>
                             <constraint firstItem="tOi-Yg-oP1" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="FHF-yk-1Pr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Y7e-wp-qYI" secondAttribute="trailing" constant="45" id="GoJ-jQ-7lL"/>
@@ -1115,7 +1122,9 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                             <constraint firstItem="Eud-4g-9Xs" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" constant="45" id="R8f-BB-fWy"/>
                             <constraint firstItem="v20-bf-GjY" firstAttribute="trailing" secondItem="tOi-Yg-oP1" secondAttribute="trailing" id="RUx-WJ-H5k"/>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="top" secondItem="tOi-Yg-oP1" secondAttribute="bottom" constant="42" id="SlP-E2-oUG"/>
-                            <constraint firstItem="pHw-bV-GZI" firstAttribute="top" secondItem="PiZ-8y-ZBG" secondAttribute="bottom" constant="42" id="WPU-q5-V7A"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="top" secondItem="PiZ-8y-ZBG" secondAttribute="bottom" constant="42" id="WPU-q5-V7A">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="trailing" secondItem="pLB-js-dAy" secondAttribute="trailingMargin" id="YMm-fV-Mwz"/>
                             <constraint firstItem="Eud-4g-9Xs" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="50.5" id="ZGH-b4-abe">
                                 <variation key="heightClass=regular-widthClass=regular" constant="42"/>
@@ -1128,15 +1137,20 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                             </constraint>
                             <constraint firstItem="8SS-Ka-cJY" firstAttribute="leading" secondItem="v20-bf-GjY" secondAttribute="trailing" constant="45" id="ahn-Zs-SSe"/>
                             <constraint firstItem="Y7e-wp-qYI" firstAttribute="leading" secondItem="PiZ-8y-ZBG" secondAttribute="leading" id="ajS-cG-VIl"/>
+                            <constraint firstItem="Y7e-wp-qYI" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="25" id="bVc-yN-dYN"/>
                             <constraint firstItem="8SS-Ka-cJY" firstAttribute="top" secondItem="WeZ-9d-pxN" secondAttribute="bottom" constant="8" id="dOR-Bz-Bbg"/>
                             <constraint firstItem="tOi-Yg-oP1" firstAttribute="leading" secondItem="pLB-js-dAy" secondAttribute="leadingMargin" id="dUB-jB-g1Q"/>
                             <constraint firstItem="pHw-bV-GZI" firstAttribute="leading" secondItem="tOi-Yg-oP1" secondAttribute="trailing" constant="55" id="gUZ-Bk-RBe">
                                 <variation key="heightClass=compact-widthClass=compact" constant="25"/>
                             </constraint>
+                            <constraint firstItem="tOi-Yg-oP1" firstAttribute="top" secondItem="v20-bf-GjY" secondAttribute="bottom" constant="100" id="iJN-at-T5G">
+                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="pHw-bV-GZI" secondAttribute="trailing" constant="60" id="jWf-dP-hsE">
                                 <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                             </constraint>
                             <constraint firstItem="tOi-Yg-oP1" firstAttribute="top" secondItem="v20-bf-GjY" secondAttribute="bottom" constant="13" id="kLg-bK-uXt"/>
+                            <constraint firstItem="pHw-bV-GZI" firstAttribute="leading" secondItem="tOi-Yg-oP1" secondAttribute="leading" id="mF6-CQ-W6T"/>
                             <constraint firstItem="Y7e-wp-qYI" firstAttribute="top" secondItem="pHw-bV-GZI" secondAttribute="bottom" constant="42.5" id="mV2-l1-Vvr"/>
                             <constraint firstItem="8SS-Ka-cJY" firstAttribute="centerX" secondItem="pLB-js-dAy" secondAttribute="centerX" id="oGY-Rr-uMp"/>
                             <constraint firstItem="PYb-5U-fiZ" firstAttribute="leading" secondItem="8SS-Ka-cJY" secondAttribute="trailing" constant="45" id="pAz-R6-jDl"/>
@@ -1152,11 +1166,22 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                             <mask key="subviews">
                                 <exclude reference="tOi-Yg-oP1"/>
                                 <exclude reference="pHw-bV-GZI"/>
-                                <exclude reference="Eud-4g-9Xs"/>
                                 <exclude reference="PiZ-8y-ZBG"/>
                                 <exclude reference="Y7e-wp-qYI"/>
+                                <exclude reference="Eud-4g-9Xs"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="8PW-Ox-ixd"/>
+                                <exclude reference="FHF-yk-1Pr"/>
+                                <exclude reference="PoR-SR-9qE"/>
+                                <exclude reference="Zb2-i0-DfL"/>
+                                <exclude reference="aTk-TW-8z8"/>
+                                <exclude reference="dUB-jB-g1Q"/>
+                                <exclude reference="iJN-at-T5G"/>
+                                <exclude reference="kLg-bK-uXt"/>
+                                <exclude reference="raU-jN-adi"/>
+                                <exclude reference="s7Z-P3-i2M"/>
+                                <exclude reference="RUx-WJ-H5k"/>
                                 <exclude reference="9mg-rq-BIW"/>
                                 <exclude reference="9rX-bp-OWD"/>
                                 <exclude reference="CNz-JS-oof"/>
@@ -1169,27 +1194,21 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <exclude reference="YMm-fV-Mwz"/>
                                 <exclude reference="gUZ-Bk-RBe"/>
                                 <exclude reference="jWf-dP-hsE"/>
+                                <exclude reference="mF6-CQ-W6T"/>
                                 <exclude reference="sWT-rm-9QH"/>
-                                <exclude reference="BAU-74-MEC"/>
-                                <exclude reference="R8f-BB-fWy"/>
-                                <exclude reference="ZGH-b4-abe"/>
                                 <exclude reference="A77-v3-bgp"/>
+                                <exclude reference="AiC-aT-r35"/>
                                 <exclude reference="DN5-bE-xOQ"/>
                                 <exclude reference="E9i-Tm-m1Y"/>
                                 <exclude reference="qp5-H4-dnI"/>
+                                <exclude reference="BAU-74-MEC"/>
+                                <exclude reference="Dxk-s5-LeL"/>
+                                <exclude reference="R8f-BB-fWy"/>
+                                <exclude reference="ZGH-b4-abe"/>
                                 <exclude reference="GoJ-jQ-7lL"/>
                                 <exclude reference="ajS-cG-VIl"/>
+                                <exclude reference="bVc-yN-dYN"/>
                                 <exclude reference="mV2-l1-Vvr"/>
-                                <exclude reference="8PW-Ox-ixd"/>
-                                <exclude reference="FHF-yk-1Pr"/>
-                                <exclude reference="PoR-SR-9qE"/>
-                                <exclude reference="Zb2-i0-DfL"/>
-                                <exclude reference="aTk-TW-8z8"/>
-                                <exclude reference="dUB-jB-g1Q"/>
-                                <exclude reference="kLg-bK-uXt"/>
-                                <exclude reference="raU-jN-adi"/>
-                                <exclude reference="s7Z-P3-i2M"/>
-                                <exclude reference="RUx-WJ-H5k"/>
                                 <exclude reference="602-fg-j6a"/>
                                 <exclude reference="qVK-Tx-SwM"/>
                                 <exclude reference="ziS-EE-2mD"/>
@@ -1201,12 +1220,12 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="pHw-bV-GZI"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="L0F-Qm-tu8"/>
-                                <include reference="YMm-fV-Mwz"/>
-                                <include reference="gUZ-Bk-RBe"/>
                                 <include reference="Zb2-i0-DfL"/>
                                 <include reference="raU-jN-adi"/>
                                 <include reference="s7Z-P3-i2M"/>
+                                <include reference="L0F-Qm-tu8"/>
+                                <include reference="YMm-fV-Mwz"/>
+                                <include reference="gUZ-Bk-RBe"/>
                                 <include reference="602-fg-j6a"/>
                                 <include reference="qVK-Tx-SwM"/>
                             </mask>
@@ -1217,13 +1236,13 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="pHw-bV-GZI"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9mg-rq-BIW"/>
-                                <include reference="9rX-bp-OWD"/>
-                                <include reference="sWT-rm-9QH"/>
                                 <include reference="FHF-yk-1Pr"/>
                                 <include reference="aTk-TW-8z8"/>
                                 <include reference="dUB-jB-g1Q"/>
                                 <include reference="kLg-bK-uXt"/>
+                                <include reference="9mg-rq-BIW"/>
+                                <include reference="9rX-bp-OWD"/>
+                                <include reference="sWT-rm-9QH"/>
                                 <include reference="ziS-EE-2mD"/>
                             </mask>
                         </variation>
@@ -1231,36 +1250,41 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                             <mask key="subviews">
                                 <include reference="tOi-Yg-oP1"/>
                                 <include reference="pHw-bV-GZI"/>
-                                <include reference="Eud-4g-9Xs"/>
                                 <include reference="PiZ-8y-ZBG"/>
                                 <include reference="Y7e-wp-qYI"/>
+                                <include reference="Eud-4g-9Xs"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CNz-JS-oof"/>
+                                <exclude reference="8PW-Ox-ixd"/>
+                                <exclude reference="PoR-SR-9qE"/>
+                                <include reference="iJN-at-T5G"/>
+                                <include reference="RUx-WJ-H5k"/>
+                                <exclude reference="CNz-JS-oof"/>
                                 <exclude reference="IWn-nT-bkF"/>
-                                <include reference="J26-7x-z31"/>
+                                <exclude reference="J26-7x-z31"/>
                                 <exclude reference="LpE-uR-Os3"/>
-                                <include reference="SlP-E2-oUG"/>
+                                <exclude reference="SlP-E2-oUG"/>
                                 <include reference="WPU-q5-V7A"/>
                                 <exclude reference="jWf-dP-hsE"/>
-                                <include reference="BAU-74-MEC"/>
-                                <exclude reference="R8f-BB-fWy"/>
-                                <include reference="ZGH-b4-abe"/>
+                                <include reference="mF6-CQ-W6T"/>
                                 <include reference="A77-v3-bgp"/>
+                                <include reference="AiC-aT-r35"/>
                                 <exclude reference="DN5-bE-xOQ"/>
                                 <exclude reference="E9i-Tm-m1Y"/>
                                 <exclude reference="qp5-H4-dnI"/>
+                                <include reference="BAU-74-MEC"/>
+                                <include reference="Dxk-s5-LeL"/>
+                                <exclude reference="R8f-BB-fWy"/>
+                                <exclude reference="ZGH-b4-abe"/>
                                 <exclude reference="GoJ-jQ-7lL"/>
                                 <include reference="ajS-cG-VIl"/>
-                                <include reference="mV2-l1-Vvr"/>
-                                <exclude reference="8PW-Ox-ixd"/>
-                                <exclude reference="PoR-SR-9qE"/>
-                                <include reference="RUx-WJ-H5k"/>
+                                <include reference="bVc-yN-dYN"/>
+                                <exclude reference="mV2-l1-Vvr"/>
                             </mask>
                         </variation>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="800"/>
+                    <size key="freeformSize" width="800" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ock-7q-JJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2015,8 +2039,8 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
         <image name="wells-next-the-sea-beach-huts" width="1000" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xqB-5n-DrG"/>
         <segue reference="WFg-5t-ggq"/>
+        <segue reference="xqB-5n-DrG"/>
         <segue reference="5Be-a8-iOo"/>
     </inferredMetricsTieBreakers>
 </document>
