@@ -316,10 +316,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="tPO-6K-z2g"/>
                                         <exclude reference="DZT-nO-BgF"/>
                                         <exclude reference="HfN-Cx-vfP"/>
                                         <exclude reference="qvP-a0-tfA"/>
+                                        <exclude reference="tPO-6K-z2g"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -334,8 +334,8 @@
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
-                                        <include reference="tPO-6K-z2g"/>
                                         <include reference="qvP-a0-tfA"/>
+                                        <include reference="tPO-6K-z2g"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -422,10 +422,10 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="ekp-iQ-5Vv"/>
-                                        <exclude reference="6MD-TE-nU6"/>
                                         <exclude reference="42u-ws-Yg0"/>
+                                        <exclude reference="6MD-TE-nU6"/>
                                         <exclude reference="Ot2-dD-KCm"/>
+                                        <exclude reference="ekp-iQ-5Vv"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
@@ -440,8 +440,8 @@
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
-                                        <include reference="ekp-iQ-5Vv"/>
                                         <include reference="Ot2-dD-KCm"/>
+                                        <include reference="ekp-iQ-5Vv"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -499,13 +499,6 @@
                                 <exclude reference="BUG-O0-Nd9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3km-pM-hxl"/>
-                                <exclude reference="Chn-bM-RTx"/>
-                                <exclude reference="J9j-IR-JP6"/>
-                                <exclude reference="TA3-Yj-3PG"/>
-                                <exclude reference="YDR-Pe-bFq"/>
-                                <exclude reference="ewu-pX-XST"/>
-                                <exclude reference="Fwc-er-G3S"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <exclude reference="CMg-Dl-RWp"/>
@@ -523,11 +516,18 @@
                                 <exclude reference="lFV-7k-sLW"/>
                                 <exclude reference="mV7-bR-O5z"/>
                                 <exclude reference="qZE-bR-lXf"/>
+                                <exclude reference="al0-TP-ai5"/>
+                                <exclude reference="gPY-K5-2kq"/>
+                                <exclude reference="3km-pM-hxl"/>
+                                <exclude reference="Chn-bM-RTx"/>
+                                <exclude reference="J9j-IR-JP6"/>
+                                <exclude reference="TA3-Yj-3PG"/>
+                                <exclude reference="YDR-Pe-bFq"/>
+                                <exclude reference="ewu-pX-XST"/>
                                 <exclude reference="Yip-D8-lXy"/>
                                 <exclude reference="1JR-fh-WJR"/>
                                 <exclude reference="Cta-Ef-vFI"/>
-                                <exclude reference="al0-TP-ai5"/>
-                                <exclude reference="gPY-K5-2kq"/>
+                                <exclude reference="Fwc-er-G3S"/>
                                 <exclude reference="vxL-Q3-lAb"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
@@ -538,13 +538,13 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Chn-bM-RTx"/>
-                                <include reference="YDR-Pe-bFq"/>
                                 <exclude reference="9YQ-12-WTj"/>
                                 <include reference="K7L-86-0pD"/>
                                 <include reference="KNw-do-sC2"/>
                                 <exclude reference="XZC-rh-ScX"/>
                                 <include reference="ZvF-vn-dbn"/>
+                                <include reference="Chn-bM-RTx"/>
+                                <include reference="YDR-Pe-bFq"/>
                                 <include reference="vxL-Q3-lAb"/>
                             </mask>
                         </variation>
@@ -554,16 +554,16 @@
                                 <include reference="g6d-ZM-pVu"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3km-pM-hxl"/>
-                                <include reference="J9j-IR-JP6"/>
-                                <include reference="TA3-Yj-3PG"/>
-                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="B5N-JI-6IP"/>
                                 <include reference="DZw-nm-nDW"/>
                                 <include reference="YZX-RH-bhu"/>
                                 <exclude reference="fbe-VM-PwA"/>
                                 <include reference="lFV-7k-sLW"/>
                                 <exclude reference="qZE-bR-lXf"/>
+                                <include reference="3km-pM-hxl"/>
+                                <include reference="J9j-IR-JP6"/>
+                                <include reference="TA3-Yj-3PG"/>
+                                <include reference="ewu-pX-XST"/>
                                 <exclude reference="zx0-Nb-kgw"/>
                             </mask>
                         </variation>
@@ -576,21 +576,23 @@
                                 <include reference="BUG-O0-Nd9"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Fwc-er-G3S"/>
                                 <exclude reference="CMg-Dl-RWp"/>
                                 <include reference="U4m-29-rkv"/>
                                 <exclude reference="VYN-ar-Klx"/>
                                 <include reference="dKn-8u-Pou"/>
                                 <include reference="gCG-8P-dj2"/>
                                 <include reference="mV7-bR-O5z"/>
+                                <include reference="al0-TP-ai5"/>
+                                <include reference="gPY-K5-2kq"/>
                                 <include reference="Yip-D8-lXy"/>
                                 <include reference="1JR-fh-WJR"/>
                                 <include reference="Cta-Ef-vFI"/>
-                                <include reference="al0-TP-ai5"/>
-                                <include reference="gPY-K5-2kq"/>
+                                <include reference="Fwc-er-G3S"/>
                             </mask>
                         </variation>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4h-2e-1y4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -995,7 +997,8 @@ Despite its name, WELLS-NEXT-THE-SEA is situated a good mile or so from open wat
                                         <exclude reference="mJd-5P-Amm"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="-66" y="29" width="296" height="168"/>
                                     <mask key="constraints">
                                         <include reference="BUW-ul-gUV"/>
                                         <include reference="mJd-5P-Amm"/>
@@ -1025,6 +1028,9 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                     <mask key="constraints">
                                         <exclude reference="Jfo-Um-Luv"/>
                                     </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="-34" y="239" width="667" height="122"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0587" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-4g-9Xs">
@@ -1151,16 +1157,6 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <exclude reference="Y7e-wp-qYI"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8PW-Ox-ixd"/>
-                                <exclude reference="FHF-yk-1Pr"/>
-                                <exclude reference="PoR-SR-9qE"/>
-                                <exclude reference="Zb2-i0-DfL"/>
-                                <exclude reference="aTk-TW-8z8"/>
-                                <exclude reference="dUB-jB-g1Q"/>
-                                <exclude reference="kLg-bK-uXt"/>
-                                <exclude reference="raU-jN-adi"/>
-                                <exclude reference="s7Z-P3-i2M"/>
-                                <exclude reference="RUx-WJ-H5k"/>
                                 <exclude reference="9mg-rq-BIW"/>
                                 <exclude reference="9rX-bp-OWD"/>
                                 <exclude reference="CNz-JS-oof"/>
@@ -1174,16 +1170,26 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <exclude reference="gUZ-Bk-RBe"/>
                                 <exclude reference="jWf-dP-hsE"/>
                                 <exclude reference="sWT-rm-9QH"/>
+                                <exclude reference="BAU-74-MEC"/>
+                                <exclude reference="R8f-BB-fWy"/>
+                                <exclude reference="ZGH-b4-abe"/>
                                 <exclude reference="A77-v3-bgp"/>
                                 <exclude reference="DN5-bE-xOQ"/>
                                 <exclude reference="E9i-Tm-m1Y"/>
                                 <exclude reference="qp5-H4-dnI"/>
-                                <exclude reference="BAU-74-MEC"/>
-                                <exclude reference="R8f-BB-fWy"/>
-                                <exclude reference="ZGH-b4-abe"/>
                                 <exclude reference="GoJ-jQ-7lL"/>
                                 <exclude reference="ajS-cG-VIl"/>
                                 <exclude reference="mV2-l1-Vvr"/>
+                                <exclude reference="8PW-Ox-ixd"/>
+                                <exclude reference="FHF-yk-1Pr"/>
+                                <exclude reference="PoR-SR-9qE"/>
+                                <exclude reference="Zb2-i0-DfL"/>
+                                <exclude reference="aTk-TW-8z8"/>
+                                <exclude reference="dUB-jB-g1Q"/>
+                                <exclude reference="kLg-bK-uXt"/>
+                                <exclude reference="raU-jN-adi"/>
+                                <exclude reference="s7Z-P3-i2M"/>
+                                <exclude reference="RUx-WJ-H5k"/>
                                 <exclude reference="602-fg-j6a"/>
                                 <exclude reference="qVK-Tx-SwM"/>
                                 <exclude reference="ziS-EE-2mD"/>
@@ -1195,12 +1201,12 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="pHw-bV-GZI"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Zb2-i0-DfL"/>
-                                <include reference="raU-jN-adi"/>
-                                <include reference="s7Z-P3-i2M"/>
                                 <include reference="L0F-Qm-tu8"/>
                                 <include reference="YMm-fV-Mwz"/>
                                 <include reference="gUZ-Bk-RBe"/>
+                                <include reference="Zb2-i0-DfL"/>
+                                <include reference="raU-jN-adi"/>
+                                <include reference="s7Z-P3-i2M"/>
                                 <include reference="602-fg-j6a"/>
                                 <include reference="qVK-Tx-SwM"/>
                             </mask>
@@ -1211,13 +1217,13 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="pHw-bV-GZI"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="9mg-rq-BIW"/>
+                                <include reference="9rX-bp-OWD"/>
+                                <include reference="sWT-rm-9QH"/>
                                 <include reference="FHF-yk-1Pr"/>
                                 <include reference="aTk-TW-8z8"/>
                                 <include reference="dUB-jB-g1Q"/>
                                 <include reference="kLg-bK-uXt"/>
-                                <include reference="9mg-rq-BIW"/>
-                                <include reference="9rX-bp-OWD"/>
-                                <include reference="sWT-rm-9QH"/>
                                 <include reference="ziS-EE-2mD"/>
                             </mask>
                         </variation>
@@ -1230,9 +1236,6 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="Y7e-wp-qYI"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8PW-Ox-ixd"/>
-                                <exclude reference="PoR-SR-9qE"/>
-                                <include reference="RUx-WJ-H5k"/>
                                 <include reference="CNz-JS-oof"/>
                                 <exclude reference="IWn-nT-bkF"/>
                                 <include reference="J26-7x-z31"/>
@@ -1240,19 +1243,24 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
                                 <include reference="SlP-E2-oUG"/>
                                 <include reference="WPU-q5-V7A"/>
                                 <exclude reference="jWf-dP-hsE"/>
+                                <include reference="BAU-74-MEC"/>
+                                <exclude reference="R8f-BB-fWy"/>
+                                <include reference="ZGH-b4-abe"/>
                                 <include reference="A77-v3-bgp"/>
                                 <exclude reference="DN5-bE-xOQ"/>
                                 <exclude reference="E9i-Tm-m1Y"/>
                                 <exclude reference="qp5-H4-dnI"/>
-                                <include reference="BAU-74-MEC"/>
-                                <exclude reference="R8f-BB-fWy"/>
-                                <include reference="ZGH-b4-abe"/>
                                 <exclude reference="GoJ-jQ-7lL"/>
                                 <include reference="ajS-cG-VIl"/>
                                 <include reference="mV2-l1-Vvr"/>
+                                <exclude reference="8PW-Ox-ixd"/>
+                                <exclude reference="PoR-SR-9qE"/>
+                                <include reference="RUx-WJ-H5k"/>
                             </mask>
                         </variation>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ock-7q-JJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2007,8 +2015,8 @@ Houghton Hall The Home Of Great Britain’s First Prime Minister</string>
         <image name="wells-next-the-sea-beach-huts" width="1000" height="682"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Be-a8-iOo"/>
-        <segue reference="WFg-5t-ggq"/>
         <segue reference="xqB-5n-DrG"/>
+        <segue reference="WFg-5t-ggq"/>
+        <segue reference="5Be-a8-iOo"/>
     </inferredMetricsTieBreakers>
 </document>
